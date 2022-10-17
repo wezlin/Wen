@@ -393,6 +393,11 @@ top: 275.87px; */
   align-items: center;
 }
 
+.Test1 {
+  display: flex;
+  align-items: center;
+}
+
 .Section3_Title {
   font-family: "Inter";
   font-style: normal;
@@ -615,10 +620,12 @@ top: 275.87px; */
 
 .BG1 {
   position: absolute;
-  top: 120px;
-  /* left: 0px; */
-  width: 838px;
-  height: 920px;
+  top: 45px;
+  left: -9%;
+  /* width: 838px; */
+  /* height: 920px; */
+  width: 50%;
+  height: 100%;
 
   /* margin-left: 15px; */
   padding: 0;
@@ -639,6 +646,7 @@ top: 275.87px; */
   background-size: cover;
   background-position: 50% 50%;
   position: absolute;
+
   margin: auto;
   width: 100%;
   height: 100%;

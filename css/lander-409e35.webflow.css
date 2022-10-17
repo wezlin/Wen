@@ -335,7 +335,8 @@
   /* Rectangle 5390 */
 
   position: absolute;
-  left: 838px;
+  /* left: 838px; */
+  left : 43%;
   top: 113.81px;
   /* width: 613.84px; */
   width: 100%;
@@ -351,7 +352,8 @@
   /* Rectangle 5352 */
 
   position: absolute;
-  left: -992px;
+  /* left: -992px; */
+left: -50%;
   top: 1578px;
   /* width: 1440px; */
   width: 100%;

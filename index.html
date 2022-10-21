@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Fri May 15 2020 11:36:12 GMT+0000 (Coordinated Universal Time)  -->
@@ -86,21 +85,30 @@
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
-<body class="Homepage">
+<body id="Body" class="Homepage">
   <header class="nav">
     <div class="container">
       <div class="row items-center mb-lg">
-        <div class="column align-left">
-          <a
-            href="index.html"
-            aria-current="page"
-            class="w-inline-block w--current FlexLogo"
-          >
-            <img src="images/svg/MoonRemove2.svg" class="MoonIcon" />
-            <div class="TextLogo">Wen</div>
-          </a>
-        </div>
+        <div class="align-left">
+          <div class="row items-center">
+            <!-- <button
+              id="NightViewButtonTop"
+              class="button mr-1xl"
+              onclick="NightMode()"
+            >
+              NightView
+            </button> -->
 
+            <a
+              href="index.html"
+              aria-current="page"
+              class="w-inline-block w--current FlexLogo"
+            >
+              <img src="images/svg/MoonRemove2.svg" class="MoonIcon" />
+              <div class="TextLogo">Wen</div>
+            </a>
+          </div>
+        </div>
         <div class="column align-right">
           <div class="row items-center">
             <a href="index.html" class="MasterLink">
@@ -131,18 +139,16 @@
     </div>
   </header>
 
-  <div class="row items-center section">
-    <div class="LineTop"></div>
-    <div class="LineMid"></div>
-    <div class="LineMid2"></div>
-    <div class="LineBottom"></div>
-    <!-- <div class="LineBottom2"></div> -->
+  <div id="LineSection" class="row items-center section">
+    <!-- <div class="LineTop LineColor"></div>
+    <div class="LineMid LineColor"></div>
+    <div class="LineMid2 LineColor"></div>
+    <div class="LineBottom LineColor"></div> -->
   </div>
 
-  <div class="section overflow-hidden">
-    <div class="container mt-3xl mb-3xl " >
-      <div class="row" >
-
+  <div class="section show overflow-hidden">
+    <div class="container mt-3xl mb-3xl">
+      <div class="row">
         <div class="column align-left mt-3xl mr-3xl">
           <div class="Test1">
             <div class="BG1">
@@ -179,8 +185,7 @@
 
             <div class="column Test2 mt-3xl">
               <p class="h2_2">Effectively hedge your NFT investments.</p>
-              <h1 class="text-giga_2 text-weight700 Test2"
-              >
+              <h1 class="text-giga_2 text-weight700 Test2">
                 Predict to earn with Wen.
               </h1>
               <a href="index.html" class="button xl main mt-lg_ w-button Test2">
@@ -195,18 +200,18 @@
 
           <div class="Test2">
             <img src="images/svg/FloorPriceCard.svg" class="S1P1Animation" />
-            <img src="images/png/Bets.png"           class="S1P2Animation" />
+            <img src="images/png/Bets.png" class="S1P2Animation" />
           </div>
           <div class="Test2">
-            <img src="images/png/RecentBets.png" class=" S1P3Animation" />
-            <img src="images/svg/Group43087.svg" class=" S1P4Animation" />
+            <img src="images/png/RecentBets.png" class="S1P3Animation" />
+            <img src="images/svg/Group43087.svg" class="S1P4Animation" />
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="Rectangle5390"></div>
+  <div id="RectangleBackground" class="Rectangle5390"></div>
 
   <!-- <div class="LineMid"></div> -->
 
@@ -268,7 +273,7 @@
 
   <!-- <div class="LineMid2 section"></div> -->
 
-  <div class="Rectangle5352"></div>
+  <div id="RectangleBackground2" class="Rectangle5352"></div>
 
   <!--================================ Section3 ====================================-->
   <div class="Section3 section mt-3xl">
@@ -476,9 +481,8 @@
     feather.replace();
   </script>
 
-
   <script src="./js/SectionAnimation.js"></script>
-
+  <script src="./js/NightMode.js"></script>
 </body>
 
 <!-- </html> -->

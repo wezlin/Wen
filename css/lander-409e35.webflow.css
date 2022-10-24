@@ -514,7 +514,7 @@ top: 275.87px; */
 
 .Section4_2_Rectangle {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 405px;
 
   /* Primary Colors/Color 1 */
@@ -857,7 +857,7 @@ top: 312.98px; */
 
 .MaskGroup1 {
   position: absolute;
-  left: 555px;
+  left: 45%;
   top: 0px;
   z-index: 1;
 }

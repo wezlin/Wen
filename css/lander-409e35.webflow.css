@@ -94,6 +94,7 @@
   font-size: 22.2995px;
   line-height: 50px;
   float: right;
+  color : #000000;
 }
 
 .FlexLogo {
@@ -637,10 +638,10 @@ top: 275.87px; */
   /* width: 50%; */
   /* height: 100%; */
 
-  top: 15%;
+  top: 11.5%;
   left: -28%;
   width: 70%;
-  height: 70%;
+  height: 90%;
 
   /* margin-left: 15px; */
   padding: 0;
@@ -1207,6 +1208,10 @@ a {
 
 .mb-3xl {
   margin-bottom: 128px;
+}
+
+.mb-4xl {
+  margin-bottom: 256px;
 }
 
 .mr-3xl {
@@ -1863,7 +1868,7 @@ a {
   animation-name: TestAnimation2;
   animation-duration: 0.8s;
   animation-iteration-count: 1;
-  animation-delay: 1.8s;
+  animation-delay: 2.8s;
 }
 
 .S1R1Animation {

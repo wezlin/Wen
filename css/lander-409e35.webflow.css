@@ -1,3 +1,5 @@
+
+
 .LineTop {
   /* Line 198 */
 
@@ -1292,7 +1294,7 @@ a {
   font-size: 16px;
   /* line-height: 18px; */
   border-radius: 46px;
-  color: #000000;
+  /* color: #000000; */
 }
 
 .button:hover {
@@ -1306,6 +1308,7 @@ a {
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1), 0 8px 16px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
 }
+
 
 .button.lg {
   padding: 16px 32px;
@@ -1874,45 +1877,46 @@ a {
 
 .S1L1Animation {
   animation-name: TestAnimation2;
-  animation-duration: 0.8s;
+  animation-duration: 0.6s;
   animation-iteration-count: 1;
-  animation-delay: 1s;
+  animation-delay: 1.4s;
+
 }
 
 .S1L2Animation {
   animation-name: TestAnimation2;
-  animation-duration: 0.8s;
+  animation-duration: 0.6s;
   animation-iteration-count: 1;
-  animation-delay: 1.2s;
+  animation-delay: 1.8s;
 }
 
-.S1L3Animation {
+/* .S1L3Animation {
   animation-name: TestAnimation2;
   animation-duration: 0.8s;
   animation-iteration-count: 1;
   animation-delay: 2.8s;
-}
+} */
 
 .S1R1Animation {
   animation-name: TestAnimation2;
-  animation-duration: 0.8s;
+  animation-duration: 0.6s;
   animation-iteration-count: 1;
-  animation-delay: 1.4s;
+  animation-delay: 1.2s;
 }
 
 .S1R2Animation {
   animation-name: TestAnimation2;
-  animation-duration: 0.8s;
+  animation-duration: 0.6s;
   animation-iteration-count: 1;
-  animation-delay: 2s;
+  animation-delay: 1.6s;
   animation-timing-function: ease-in-out;
 }
 
 .S1R3Animation {
   animation-name: TestAnimation2;
-  animation-duration: 0.8s;
+  animation-duration: 0.6s;
   animation-iteration-count: 1;
-  animation-delay: 2.2s;
+  animation-delay:2.2s;
   animation-timing-function: ease-in-out;
 }
 
@@ -1977,6 +1981,5 @@ a {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
 }
-
 
 

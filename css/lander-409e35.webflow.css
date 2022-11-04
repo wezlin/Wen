@@ -891,6 +891,7 @@ h3 {
   font-size: 24px;
   line-height: 125%;
   font-weight: 700;
+  font-family: "Inter";
 }
 
 h4 {
@@ -900,6 +901,7 @@ h4 {
   font-size: 18px;
   line-height: 140%;
   font-weight: 700;
+  font-family: "Inter";
 }
 
 h5 {
@@ -908,6 +910,7 @@ h5 {
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
+  font-family: "Inter";
 }
 
 h6 {
@@ -918,6 +921,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  font-family: "Inter";
 }
 
 a {

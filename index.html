@@ -55,7 +55,10 @@
       rel="stylesheet"
       type="text/css"
     /> -->
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   <!-- <link href="css/webflow_.css" rel="stylesheet" type="text/css" /> -->
   <link href="css/lander-409e35.webflow.css" rel="stylesheet" type="text/css" />
   <!-- <link href="css/webflow-mobile.css" rel="stylesheet" type="text/css" /> -->
@@ -81,14 +84,16 @@
     /> -->
 
   <style>
-    @media screen and (max-width: 820px) {
+    @media screen and (max-width: 912px) {
       /* For mobile phones: */
       #header {
-        width: 95%;
+        width: 70%;
+        margin-top: 3%;
       }
 
       #Body {
-        width: 100%;
+        width: 80%;
+        max-width: 80%;
       }
 
       .container {
@@ -107,7 +112,7 @@
         /* Rectangle 5390 */
         z-index: -1;
         left: 0%;
-        width: 100%;
+        display: none;
       }
 
       #S1-video {
@@ -155,7 +160,7 @@
         margin-bottom: 40%;
 
         /* left : 30%; */
-        white-space: nowrap;
+        /* white-space: nowrap; */
       }
 
       #S1-all {
@@ -169,14 +174,12 @@
         margin-right: unset;
       }
 
-
-      #S3{
-        /* position: relative;
-        display : unset;  */
-        margin-top: 45%;
-        margin-right : 35%;
+      #S3 {
+        position: relative;
+        /* display : flex;  */
+        margin-top: 50%;
+        /* margin-left: 0; */
       }
-
 
       .Test2_S3_inner {
         display: unset;
@@ -184,187 +187,189 @@
       }
 
       .Section3_Rectangle {
-        width: 200%;
+        /* max-width: 700%; */
         height: 50%;
+        margin-left: unset;
       }
 
-      #S4{
+      #S4 {
         position: relative;
         /* position: relative;
         display : unset;  */
-        margin-top: 100%;
+        margin-top: 120%;
       }
-      #S4_rectangle{
-        margin-top: -15%;
+      #S4_rectangle {
+        margin-top: -10%;
         position: relative;
-        display : unset ; 
-
+        display: unset;
       }
-      .Section4_2{
+      .Section4_2 {
         position: relative;
-        width: 100%;
+        width: 95%;
         /* margin-top: 15%; */
-
       }
       .Section4_2_Rectangle {
-
         width: 100%;
         /* height : 200%; */
         margin-left: 0%;
-        margin-top: 100%;
+        margin-top: 120%;
+      }
+
+      #Section4-2_left {
+        display: unset;
+        align-items: center;
       }
 
       #Section4-2_pic {
         width: 0%;
       }
 
-
-      .RectangleBottom{
+      .RectangleBottom {
         margin-top: 28%;
+      }
+
+      #S_bottom_text {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        margin-right: unset;
+        white-space: nowrap;
+      }
+
+      #S_bottom_icon {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+
+        margin-right: unset;
       }
     }
 
-
-    @media screen and (max-width: 412px) {
-      /* For mobile phones: */
+    @media screen and (max-width: 540px) {
       #header {
-        width: 95%;
+        width: 80%;
+        margin-top: 3%;
       }
 
       #Body {
-        width: 100%;
-      }
-
-      .container {
-        position: relative;
-        z-index: 1;
+        margin-left: 15%;
         width: 100%;
         max-width: 100%;
-        border-radius: 8px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-      }
-
-      .RectangleS1 {
-        /* Rectangle 5390 */
-        z-index: -1;
-        left: 0%;
-        width: 100%;
       }
 
       #S1-video {
         /* left : unset ; */
         position: unset;
+        width: 100%;
+        left: 0%;
       }
 
-      #S1-left {
+      #S3 {
         position: relative;
-        width: 100%;
-        height: 70%;
-        align-items: center;
-        margin-left: unset;
-        margin-right: unset;
-        margin-bottom: 5%;
+        /* display : flex;  */
+        margin-top: 70%;
+        /* margin-left: 0; */
       }
 
-      .S1_left_picture_size1 {
-        width: 100%;
-      }
-
-      .S1_left_picture_size2_1 {
-        width: 100%;
-      }
-      .S1_left_picture_size2_2 {
-        width: 100%;
-      }
-
-      #S1_left_pd_all {
-        width: 100%;
-        display: unset;
-      }
-
-      #S1_left_pd_right {
-        margin-left: unset;
-        margin-right: unset;
-      }
-
-      #S1-left-button {
-        align-items: center;
-        display: flex;
-        position: relative;
-        width: 100%;
-        /* margin-left : 20%; */
-        margin-bottom: 40%;
-
-        /* left : 30%; */
-        white-space: nowrap;
-      }
-
-      #S1-all {
-        position: relative;
-        display: unset;
-        vertical-align: middle;
-      }
-
-      #S1-right {
-        margin-left: unset;
-        margin-right: unset;
-      }
-
-
-      #S3{
-        /* position: relative;
-        display : unset;  */
-        margin-top: 80%;
-        margin-right : 25%;
-      }
-
-
-      .Test2_S3_inner {
-        display: unset;
-        align-items: unset;
-      }
-
-      .Section3_Rectangle {
-        width: 200%;
-        height: 50%;
-      }
-
-      #S4{
+      #S4 {
         position: relative;
         /* position: relative;
-        display : unset;  */
-        margin-top: 200%;
+  display : unset;  */
+        margin-top: 170%;
       }
-      #S4_rectangle{
-        margin-top: -15%;
-        position: relative;
-        display : unset ; 
 
-      }
-      .Section4_2{
-        position: relative;
-        width: 100%;
-        /* margin-top: 15%; */
-
-      }
       .Section4_2_Rectangle {
-
         width: 100%;
         /* height : 200%; */
         margin-left: 0%;
-        margin-top: 200%;
+        margin-top: 180%;
       }
 
-      #Section4-2_pic {
-        width: 0%;
-      }
+      @media screen and (max-width: 414px) {
+        #header {
+          width: 60%;
+          margin-top: 3%;
+        }
 
+        #Body {
+          /* margin-left: 15%; */
+          width: 100%;
+          max-width: 100%;
+        }
 
-      .RectangleBottom{
-        margin-top: 98%;
+        #S1-video {
+          /* left : unset ; */
+          position: unset;
+          width: 110%;
+          left: 0%;
+          white-space: unset;
+        }
+
+        h1 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+        h2 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+        h3 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+
+        h4 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+        h5 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+
+        #S3 {
+          position: relative;
+          /* display : flex;  */
+          margin-top: 130%;
+          /* margin-left: 0; */
+        }
+
+        .Section3_Rectangle {
+          /* max-width: 700%; */
+          width: 90%;
+          height: 50%;
+          margin-left: unset;
+        }
+
+        .Section3_Text {
+          font-size: 12px;
+        }
+
+        #S4 {
+          position: relative;
+          /* position: relative;
+  display : unset;  */
+          margin-top: 300%;
+        }
+
+        .Section4_Rectangle {
+          margin-bottom: 25%;
+          width: 90%;
+          height: 30%;
+        }
+
+        .Section4_2_Rectangle {
+          width: 100%;
+          height: 80%;
+          margin-left: 0%;
+          margin-top: 240%;
+        }
+
+        #Section4-2_left_inner {
+          display: unset;
+          align-items: center;
+          text-align: center;
+        }
       }
     }
   </style>
@@ -376,7 +381,7 @@
   <header id="header" class="nav">
     <div class="container">
       <div class="row items-center mb-lg">
-        <div class="align-left">
+        <div id="header_bar0" class="align-left">
           <div class="row items-center">
             <!-- <button
               id="NightViewButtonTop"
@@ -392,15 +397,19 @@
             </a>
           </div>
         </div>
-
-        <div class="column align-right">
-          <div class="row items-center" style="gap: 6px">
-            <a href="index.html" class="MasterPrimaryButton button">
+        <div class="column align-right" style="display: flex">
+          <div id="header_bars" class="row items-center" style="gap: 12px">
+            <a
+              id="header_bar1"
+              href="index.html"
+              class="MasterPrimaryButton button"
+            >
               <div class="LinkItem" style="color: #ffffff; margin-bottom: 18px">
                 Launch Beta App
               </div>
             </a>
             <a
+              id="header_bar2"
               href="https://discord.gg/VtshCfBQ9S"
               class="MasterSecondaryButton button"
             >
@@ -412,12 +421,19 @@
             </a>
 
             <a
+              id="header_bar3"
               href="https://twitter.com/metawenio"
               class="MasterSecondaryButton button"
             >
               <img src="images/svg/Twitter.svg" class="TwitterIconTop" />
               <div class="PrimaryButtonText">Follow Us!</div>
             </a>
+            <div
+              id="header_bar4"
+              onclick="Toggle2() "
+              class="button fa fa-bars"
+              style="font-size: 64px; gap: 8px"
+            ></div>
           </div>
         </div>
       </div>
@@ -611,11 +627,11 @@
   <div id="RectangleBackground2" class="RectangleS1"></div>
 
   <!--================================ Section3 Wez====================================-->
-  <div id = "S3" class="Section3 section mt-3xl">
+  <div id="S3" class="Section3 section mt-3xl">
     <div class="Test2_S3_inner mt-2xl">
       <div class="Test2_S3_inner ItemGap-lg">
         <div class="Section3_Rectangle">
-          <div class="row justify-center Test2_S3_inner ItemGap-lg mt-2xl">
+          <div class="row justify-center Test2 ItemGap-lg mt-2xl">
             <img src="images/svg/GraphAscend.svg" class="" />
             <div class="Section3_Title">Play To Earn</div>
           </div>
@@ -628,7 +644,7 @@
         <div class="mt-2xl"></div>
         <div class="Test2_S3_inner ItemGap-lg">
           <div class="Section3_Rectangle">
-            <div class="row justify-center Test2_S3_inner ItemGap-lg mt-2xl">
+            <div class="row justify-center Test2 ItemGap-lg mt-2xl">
               <img src="images/svg/Laptop.svg" class="" />
               <div class="Section3_Title">Actionable Insights</div>
             </div>
@@ -647,7 +663,7 @@
     <div class="Test2_S3_inner mt-2xl">
       <div class="Test2_S3_inner ItemGap-lg">
         <div class="Section3_Rectangle">
-          <div class="row justify-center Test2_S3_inner ItemGap-lg mt-2xl">
+          <div class="row justify-center Test2 ItemGap-lg mt-2xl">
             <img src="images/svg/AnalyticsPie.svg" class="" />
             <div class="Section3_Title">Collection Exposure</div>
           </div>
@@ -657,7 +673,6 @@
             do eiusmod tempor incididun.
           </div>
         </div>
-
         <div class="mt-2xl"></div>
         <div class="Test2_S3_inner ItemGap-lg">
           <div class="Section3_Rectangle">
@@ -679,7 +694,7 @@
     <div class="Test2_S3_inner mt-2xl">
       <div class="Test2_S3_inner ItemGap-lg">
         <div class="Section3_Rectangle">
-          <div class="row justify-center Test2_S3_inner ItemGap-lg mt-2xl">
+          <div class="row justify-center Test2 ItemGap-lg mt-2xl">
             <img src="images/svg/ShortIcon.svg" class="" />
             <div class="Section3_Title">Short NFT Collections</div>
           </div>
@@ -692,7 +707,7 @@
         <div class="mt-2xl"></div>
         <div class="Test2_S3_inner ItemGap-lg">
           <div class="Section3_Rectangle">
-            <div class="row justify-center Test2_S3_inner ItemGap-lg mt-2xl">
+            <div class="row justify-center Test2 ItemGap-lg mt-2xl">
               <img src="images/svg/StarIcon.svg" class="" />
               <div class="Section3_Title">Earn Ethereum</div>
             </div>
@@ -710,7 +725,7 @@
   <!--================================ Section4 Wez ====================================-->
   <!-- <div class="LineBottom "></div> -->
   <div class="row items-center section mt-3xl">
-    <div id = "S4" class="Section4 section mt-3xl">
+    <div id="S4" class="Section4 section mt-3xl">
       <div class="row">
         <div class="column align-center mt-2xl">
           <h1 class="text-weight700 text-center">How it works</h1>
@@ -722,7 +737,7 @@
       </div>
 
       <div class="ItemGap-lg">
-        <div id = "S4_rectangle" class="mt-n2xl row ItemGap-lg">
+        <div id="S4_rectangle" class="mt-n2xl row ItemGap-lg">
           <div class="Section4_Rectangle column align-center">
             <img src="images/svg/bell.svg" class="mt-2xl" />
             <div class="Section3_Title">Join</div>
@@ -731,7 +746,7 @@
               us during beta.
             </h5>
           </div>
-          <div class = "mt-1xl"></div>
+          <div class="mt-1xl"></div>
           <div class="Section4_Rectangle column align-center">
             <img src="images/svg/Add.svg" class="mt-2xl" />
             <div class="Section3_Title">Trade</div>
@@ -740,7 +755,7 @@
               down, or stay the same.
             </h5>
           </div>
-          <div class = "mt-1xl"></div>
+          <div class="mt-1xl"></div>
           <div class="Section4_Rectangle column align-center">
             <img src="images/svg/Coin.svg" class="mt-2xl" />
             <div class="Section3_Title">Profit</div>
@@ -749,20 +764,23 @@
               Reinvest to play again or cash out.
             </h5>
           </div>
-
         </div>
       </div>
     </div>
-  <!--================================ Section4 Wez ====================================-->
+    <!--================================ Section4 Wez ====================================-->
 
-  <!--================================ Section4_2 Wez====================================-->
-  <div class="Section4_2 section mt-3xl">
+    <!--================================ Section4_2 Wez====================================-->
+    <div class="Section4_2 section mt-3xl">
       <div class="Section4_2_Rectangle mt-3xl">
-        <div id = "Section4-2_left" class="row align-left">
-          <div class="column align-left ml-3xl">
-            <h2 class="textColorWhite h1_2 mt-2xl">Start playing. Wen? Now!</h2>
+        <div id="Section4-2_left" class="row align-left">
+          <div
+            id="Section4-2_left_inner"
+            class="column align-left ml-3xl"
+            style="gap: 16px; margin-top: 64px"
+          >
+            <h2 class="textColorWhite">Start playing. Wen? Now!</h2>
 
-            <h5 class="textColorWhite mt-2xl">
+            <h5 class="textColorWhite">
               Join our beta test and receive free credits to play. <br />
               We&lsquo;d love to hear what you have to say.
             </h5>
@@ -773,14 +791,13 @@
           </div>
         </div>
 
-        <div id = "Section4-2_right" class="row align-right">
+        <div id="Section4-2_right" class="row align-right">
           <div class="column align-right">
             <div class="row justify-center">
               <img
-                id = "Section4-2_pic"
+                id="Section4-2_pic"
                 src="images/png/NewMaskGroup/MaskGroupAll.png"
                 class="MaskGroup1 ml-3xl"
-                
               />
             </div>
           </div>
@@ -795,12 +812,12 @@
 
   <!-- <div class="LineBottom2 section"></div> -->
 
-  <div class="RectangleBottom sectionBottom">
-    <h5 class="text-center ItemYCenter">
+  <div id="S_bottom" class="RectangleBottom sectionBottom">
+    <h5 id="S_bottom_text" class="text-center ItemYCenter">
       Copyright &copy; Wen | Designed by Dan & Mark - Powered by Users Like You
     </h5>
 
-    <div class="column align-right">
+    <div id="S_bottom_icon" class="column align-right">
       <div class="ItemGap-mid mr-3xl">
         <a href="https://twitter.com/metawenio">
           <img src="images/svg/Twitter.svg" />
@@ -829,6 +846,51 @@
 
   <script src="./js/SectionAnimation.js"></script>
   <script src="./js/NightMode.js"></script>
+
+  <script>
+    function Toggle2() {
+      var x = document.getElementById("header_bar1");
+      if (x.style.display === "") {
+        document.getElementById("header_bar0").style.display = "";
+        document.getElementById("header_bar1").style.display = "none";
+        document.getElementById("header_bar2").style.display = "none";
+        document.getElementById("header_bar3").style.display = "none";
+      } else {
+        document.getElementById("header_bar0").style.display = "none";
+        document.getElementById("header_bar1").style.display = "";
+        document.getElementById("header_bar2").style.display = "";
+        document.getElementById("header_bar3").style.display = "";
+      }
+    }
+  </script>
+
+  <script>
+    if (window.innerWidth < 912) {
+      document.getElementById("header_bar4").style.display = "block";
+      document.getElementById("header_bar1").style.display = "none";
+      document.getElementById("header_bar2").style.display = "none";
+      document.getElementById("header_bar3").style.display = "none";
+    } else {
+      document.getElementById("header_bar4").style.display = "none";
+      document.getElementById("header_bar1").style.display = "";
+      document.getElementById("header_bar2").style.display = "";
+      document.getElementById("header_bar3").style.display = "";
+    }
+
+    window.onresize = function HideToggle2() {
+      if (window.innerWidth < 912) {
+        document.getElementById("header_bar4").style.display = "block";
+        document.getElementById("header_bar1").style.display = "none";
+        document.getElementById("header_bar2").style.display = "none";
+        document.getElementById("header_bar3").style.display = "none";
+      } else {
+        document.getElementById("header_bar4").style.display = "none";
+        document.getElementById("header_bar1").style.display = "";
+        document.getElementById("header_bar2").style.display = "";
+        document.getElementById("header_bar3").style.display = "";
+      }
+    };
+  </script>
 </body>
 
 <!-- </html> -->

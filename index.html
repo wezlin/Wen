@@ -1,911 +1,553 @@
+
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri May 15 2020 11:36:12 GMT+0000 (Coordinated Universal Time)  -->
-<!-- <html
-  data-wf-page="5ea1b995c6b4c13faa406a09"
-  data-wf-site="5ea1b995c6b4c10f74406a08"
-> -->
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y24CT8957E"></script> -->
-  <!-- <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      gtag('config', 'G-Y24CT8957E');
-    </script> -->
-  <!-- <meta charset="utf-8" />
-    <title>Metawen </title>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta
-      content="the First NFT Prediction Platform"
-      name="description"
-    /> -->
-  <!-- <meta
-      content="Wen"
-      property="og:title"
-    /> -->
-  <!-- <meta
-      content="the First NFT Prediction Platform"
-      property="og:description"
-    /> -->
-  <!-- <meta
-      content="https://drive.google.com/uc?export=view&id=1ouIA1iIIIgSHZ2uNWFqL6izZ_dv01hgN"
-      property="og:image"
-    /> -->
-  <!-- <meta
-      content="Wen"
-      property="twitter:title"
-    /> -->
-  <!-- <meta
-      content="the First NFT Prediction Platform"
-      property="twitter:description"
-    /> -->
-  <!-- <meta
-      content="https://drive.google.com/uc?export=view&id=1ouIA1iIIIgSHZ2uNWFqL6izZ_dv01hgN"
-      property="twitter:image"
-    /> -->
-  <!-- <meta property="og:type" content="website" /> -->
-  <!-- <meta content="summary_large_image" name="twitter:card" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <meta content="Webflow" name="generator" /> -->
-  <!-- <link
-      href="css/normalize.css"
+    <link
       rel="stylesheet"
-      type="text/css"
-    /> -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <!-- <link href="css/webflow_.css" rel="stylesheet" type="text/css" /> -->
-  <link href="css/lander-409e35.webflow.css" rel="stylesheet" type="text/css" />
-  <!-- <link href="css/webflow-mobile.css" rel="stylesheet" type="text/css" /> -->
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <!-- <script type="text/javascript">
-      !(function (o, c) {
-        var n = c.documentElement,
-          t = " w-mod-";
-        (n.className += t + "js"),
-          ("ontouchstart" in o ||
-            (o.DocumentTouch && c instanceof DocumentTouch)) &&
-            (n.className += t + "touch");
-      })(window, document);
-    </script> -->
-  <!-- <link
-      href="images/Golden Moon.png"
-      rel="shortcut icon"
-      type="image/x-icon"
-    /> -->
-  <!-- <link    
-      href="images/Golden Moon.png"
-      rel="apple-touch-icon"
-    /> -->
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link href="css/lander-409e35.webflow.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
 
-  <style>
-    @media screen and (max-width: 912px) {
-      /* For mobile phones: */
-      #header {
-        width: 90%;
-        /* margin-top: 3%; */
-      }
+    <style>
+      @media screen and (max-width: 912px) {
+        /* For mobile phones: */
+        #header {
+          width: 90%;
+          /* margin-top: 3%; */
+        }
 
-      #Body {
-        width: 95%;
-        max-width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        /* background: #f7fffc; */
-      }
+        #Body {
+          width: 95%;
+          max-width: 95%;
+          margin-left: auto;
+          margin-right: auto;
+          /* background: #f7fffc; */
+        }
 
-      .container {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        max-width: 100%;
-        border-radius: 8px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-      }
+        .container {
+          position: relative;
+          z-index: 1;
+          width: 100%;
+          max-width: 100%;
+          border-radius: 8px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-      .RectangleS1 {
-        /* Rectangle 5390 */
-        z-index: -1;
-        left: 0%;
-        display: none;
-      }
+        .RectangleS1 {
+          /* Rectangle 5390 */
+          z-index: -1;
+          left: 0%;
+          display: none;
+        }
 
-      #S1-video {
-        /* left : unset ; */
-        position: unset;
-      }
+        #S1-video {
+          /* left : unset ; */
+          position: unset;
+        }
 
-      #S1-left {
-        position: relative;
-        width: 100%;
-        height: 70%;
-        align-items: center;
-        margin-left: unset;
-        margin-right: unset;
-        margin-bottom: 5%;
-      }
+        #S1-left {
+          position: relative;
+          width: 100%;
+          height: 70%;
+          align-items: center;
+          margin-left: unset;
+          margin-right: unset;
+          margin-bottom: 5%;
+        }
 
-      .S1_left_picture_size1 {
-        width: 100%;
-      }
+        .S1_left_picture_size1 {
+          width: 100%;
+        }
 
-      .S1_left_picture_size2_1 {
-        width: 100%;
-      }
-      .S1_left_picture_size2_2 {
-        width: 100%;
-      }
+        .S1_left_picture_size2_1 {
+          width: 100%;
+        }
+        .S1_left_picture_size2_2 {
+          width: 100%;
+        }
 
-      #S1_left_pd_all {
-        width: 100%;
-        display: unset;
-      }
+        #S1_left_pd_all {
+          width: 100%;
+          display: unset;
+        }
 
-      #S1_left_pd_right {
-        margin-left: unset;
-        margin-right: unset;
-      }
+        #S1_left_pd_right {
+          margin-left: unset;
+          margin-right: unset;
+        }
 
-      #S1-left-button {
-        align-items: center;
-        display: flex;
-        position: relative;
-        width: 100%;
-        /* margin-left : 20%; */
-        margin-bottom: 40%;
+        #S1-left-button {
+          align-items: center;
+          display: flex;
+          position: relative;
+          width: 100%;
+          /* margin-left : 20%; */
+          margin-bottom: 40%;
 
-        /* left : 30%; */
-        /* white-space: nowrap; */
-      }
+          /* left : 30%; */
+          /* white-space: nowrap; */
+        }
 
-      #S1-all {
-        position: relative;
-        display: unset;
-        vertical-align: middle;
-      }
+        #S1-all {
+          position: relative;
+          display: unset;
+          vertical-align: middle;
+        }
 
-      #S1-right {
-        margin-left: unset;
-        margin-right: unset;
-      }
+        #S1-right {
+          margin-left: unset;
+          margin-right: unset;
+        }
 
-      #S3 {
-        position: relative;
-        /* display : flex;  */
-        margin-top: 70%;
-        /* margin-left: 0; */
-      }
+        #S3 {
+          position: relative;
+          /* display : flex;  */
+          margin-top: 70%;
+          /* margin-left: 0; */
+        }
 
-      .Test2_S3_inner {
-        display: unset;
-        align-items: unset;
-      }
+        .Test2_S3_inner {
+          display: unset;
+          align-items: unset;
+        }
 
-      .Section3_Rectangle {
-        /* max-width: 700%; */
-        height: 50%;
-        margin-left: unset;
-      }
+        .Section3_Rectangle {
+          /* max-width: 700%; */
+          height: 50%;
+          margin-left: unset;
+        }
 
-      #S4 {
-        position: relative;
-        /* position: relative;
+        #S4 {
+          position: relative;
+          /* position: relative;
         display : unset;  */
-        margin-top: 140%;
-      }
-      #S4_rectangle {
-        margin-top: -10%;
-        position: relative;
-        display: unset;
-      }
-      .Section4_2 {
-        position: relative;
-        width: 95%;
-        /* margin-top: 15%; */
-      }
-      .Section4_2_Rectangle {
-        width: 100%;
-        /* height : 200%; */
-        margin-left: 0%;
-        margin-top: 140%;
-      }
+          margin-top: 140%;
+        }
+        #S4_rectangle {
+          margin-top: -10%;
+          position: relative;
+          display: unset;
+        }
+        .Section4_2 {
+          position: relative;
+          width: 95%;
+          /* margin-top: 15%; */
+        }
+        .Section4_2_Rectangle {
+          width: 100%;
+          /* height : 200%; */
+          margin-left: 0%;
+          margin-top: 140%;
+        }
 
-      #Section4-2_left {
-        display: unset;
-        align-items: center;
-      }
+        #Section4-2_left {
+          display: unset;
+          align-items: center;
+        }
 
-      #Section4-2_pic {
-        width: 0%;
-      }
+        #Section4-2_pic {
+          width: 0%;
+        }
 
-      #S4_2_button {
-        width: 40%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 15%;
-      }
+        #S4_2_button {
+          width: 40%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 15%;
+        }
 
+        .RectangleBottom {
+          margin-top: 48%;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-      .RectangleBottom {
-        margin-top: 48%;
-        width : 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
+        #S_bottom_text {
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          margin-right: unset;
+          white-space: nowrap;
+        }
 
-      #S_bottom_text {
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        margin-right: unset;
-        white-space: nowrap;
-      }
+        #S_bottom_icon {
+          position: absolute;
+          left: 50%;
+          top: 20%;
 
-      #S_bottom_icon {
-        position: absolute;
-        left: 50%;
-        top: 20%;
-
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-    }
-
-    @media screen and (max-width: 540px) {
-      #header {
-        width: 85%;
-        /* margin-top: 3%; */
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
 
-      #Body {
-        margin-left: 15%;
-        width: 100%;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
+      @media screen and (max-width: 540px) {
+        #header {
+          width: 85%;
+          /* margin-top: 3%; */
+        }
 
-      #S1-video {
-        /* left : unset ; */
-        position: unset;
-        width: 100%;
-        left: 0%;
-      }
+        #Body {
+          margin-left: 15%;
+          width: 100%;
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-      #S3 {
-        position: relative;
-        /* display : flex;  */
-        margin-top: 70%;
-        /* margin-left: 0; */
-      }
+        #S1-video {
+          /* left : unset ; */
+          position: unset;
+          width: 100%;
+          left: 0%;
+        }
 
-      #S4 {
-        position: relative;
-        /* position: relative;
+        #S3 {
+          position: relative;
+          /* display : flex;  */
+          margin-top: 70%;
+          /* margin-left: 0; */
+        }
+
+        #S4 {
+          position: relative;
+          /* position: relative;
   display : unset;  */
-        margin-top: 170%;
+          margin-top: 170%;
+        }
+
+        .Section4_2_Rectangle {
+          width: 100%;
+          /* height : 200%; */
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 180%;
+          margin-bottom: 30%;
+        }
       }
 
-      .Section4_2_Rectangle {
-        width: 100%;
-        /* height : 200%; */
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 180%;
-        margin-bottom: 30%;
-      }
+      @media screen and (max-width: 414px) {
+        #header {
+          width: 90%;
+          /* margin-top: 3%; */
+        }
 
+        #Body {
+          /* margin-left: 15%; */
+          width: 100%;
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-    }
+        #S1-video {
+          /* left : unset ; */
+          position: unset;
+          width: 110%;
+          left: 0%;
+          white-space: unset;
+        }
 
-    @media screen and (max-width: 414px) {
-      #header {
-        width: 90%;
-        /* margin-top: 3%; */
-      }
+        h1 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+        h2 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+        h3 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
 
-      #Body {
-        /* margin-left: 15%; */
-        width: 100%;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
+        h4 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
+        h5 {
+          font-size: 12px;
+          word-wrap: break-word;
+        }
 
-      #S1-video {
-        /* left : unset ; */
-        position: unset;
-        width: 110%;
-        left: 0%;
-        white-space: unset;
-      }
+        #S3 {
+          position: relative;
+          /* display : flex;  */
+          margin-top: 130%;
+          /* margin-left: 0; */
+        }
 
-      h1 {
-        font-size: 12px;
-        word-wrap: break-word;
-      }
-      h2 {
-        font-size: 12px;
-        word-wrap: break-word;
-      }
-      h3 {
-        font-size: 12px;
-        word-wrap: break-word;
-      }
+        .Section3_Rectangle {
+          /* max-width: 700%; */
+          width: 90%;
+          height: 50%;
+          margin-left: unset;
+        }
 
-      h4 {
-        font-size: 12px;
-        word-wrap: break-word;
-      }
-      h5 {
-        font-size: 12px;
-        word-wrap: break-word;
-      }
+        .Section3_Text {
+          font-size: 12px;
+        }
 
-      #S3 {
-        position: relative;
-        /* display : flex;  */
-        margin-top: 130%;
-        /* margin-left: 0; */
-      }
-
-      .Section3_Rectangle {
-        /* max-width: 700%; */
-        width: 90%;
-        height: 50%;
-        margin-left: unset;
-      }
-
-      .Section3_Text {
-        font-size: 12px;
-      }
-
-      #S4 {
-        position: relative;
-        /* position: relative;
+        #S4 {
+          position: relative;
+          /* position: relative;
   display : unset;  */
-        margin-top: 200%;
+          margin-top: 200%;
+        }
+
+        .Section4_Rectangle {
+          margin-bottom: 25%;
+          width: 100%;
+          height: 30%;
+        }
+
+        .Section4_2_Rectangle {
+          width: 100%;
+          height: 80%;
+          margin-left: 0%;
+          margin-top: 180%;
+        }
+
+        #Section4-2_left_inner {
+          display: unset;
+          align-items: center;
+          text-align: center;
+        }
       }
+    </style>
 
-      .Section4_Rectangle {
-        margin-bottom: 25%;
-        width: 100%;
-        height: 30%;
-      }
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
 
-      .Section4_2_Rectangle {
-        width: 100%;
-        height: 80%;
-        margin-left: 0%;
-        margin-top: 180%;
-      }
+  <body id="Body">
+    <header id="header" class="nav">
 
-      #Section4-2_left_inner {
-        display: unset;
-        align-items: center;
-        text-align: center;
-      }
-    }
-  </style>
-
-  <script src="https://unpkg.com/feather-icons"></script>
-</head>
-
-<body id="Body" style = "margin-left : auto; margin-right : auto; ">
-  <header id="header" class="nav">
-    <div class="container">
-      <div class="row items-center mb-lg">
-        <div id="header_bar0" class="align-left">
-          <div class="row items-center">
-            <!-- <button
-              id="NightViewButtonTop"
-              class="button mr-1xl"
-              onclick="NightMode()"
-            >
-              NightView
-            </button> -->
-
-            <a href="index.html" aria-current="page" class="FlexLogo">
+            
+            <a id="header_left_icon" href="index.html" aria-current="page" >
               <img src="images/png/MoonLogo.png" class="MoonIcon" />
-              <h1>Wen</h1>
+              <h1 id="header_left_word">Wen</h1>
             </a>
-          </div>
-        </div>
-        <div class="column align-right" style="display: flex">
-          <div id="header_bars" class="row items-center" style="gap: 12px">
-            <a
-              id="header_bar1"
-              href="index.html"
-              class="MasterPrimaryButton button"
-            >
-              <div class="LinkItem" style="color: #ffffff; margin-bottom: 18px">
-                Launch Beta App
+
+
+            <div id="header_right_icon" >
+              <a href="https://twitter.com/metawenio" class="MasterSecondaryButton button main" style="gap: 8px">
+                <img src="images/svg/TwitterTopWhite.svg" class="TwitterIconTop" style= "width: 45px"/>
+                Follow Us!
+            </a>
+            <a href="https://discord.gg/VtshCfBQ9S" class="MasterSecondaryButton button main" style="gap: 8px"; >
+                Join Discord
+                <img src="images/svg/DiscordTopWhite.svg" alt="Discord_Top" style= "width: 40px"/>
+            </a>
+          
+            <a href="index.html" class="MasterSecondaryButton button main">How it Works</a>
+              <!-- <div
+                id="header_bar4"
+                onclick="Toggle2() "
+                class="button fa fa-bars"
+                style="font-size: 64px; gap: 8px"
+              ></div> -->
               </div>
-            </a>
-            <a
-              id="header_bar2"
-              href="https://discord.gg/VtshCfBQ9S"
-              class="MasterSecondaryButton button"
-            >
-              <div class="SecondaryButtonText">Join Discord</div>
-              <img
-                src="images/svg/Discord.svg"
-                class="SocialMediaIconDiscord"
-              />
-            </a>
+    </header>
 
-            <a
-              id="header_bar3"
-              href="https://twitter.com/metawenio"
-              class="MasterSecondaryButton button"
-            >
-              <img src="images/svg/Twitter.svg" class="TwitterIconTop" />
-              <div class="PrimaryButtonText">Follow Us!</div>
-            </a>
-            <div
-              id="header_bar4"
-              onclick="Toggle2() "
-              class="button fa fa-bars"
-              style="font-size: 64px; gap: 8px"
-            ></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- <div id="LineSection" class="row items-center section"> -->
-  <!-- <div class="LineTop LineColor"></div>
-    <div class="LineMid LineColor"></div>
-    <div class="LineMid2 LineColor"></div>
-    <div class="LineBottom LineColor"></div> -->
-  <!-- </div> -->
-
-  <div class="section overflow-hidden_ show">
-    <div class="container mt-3xl mb-3xl">
-      <div id="S1-all" class="row">
-        <div id="S1-left" class="column align-left mr-3xl mt-3xl">
-          <div class="">
-            <div class="">
-              <div
-                id="S1-video"
-                data-poster-url=""
-                data-video-urls="./images/mp4/PhoneApe.mp4"
-                data-autoplay="true"
-                data-loop="true"
-                data-wf-ignore="true"
-                data-beta-bgvideo-upgrade="false"
-                class="background-video-8 w-background-video BG1"
-              >
-                <video
-                  id=""
-                  autoplay=""
-                  loop=""
-                  style="background-image: url('')"
-                  muted=""
-                  playsinline=""
-                  data-wf-ignore="true"
-                  data-object-fit="cover"
-                >
-                  <source
-                    src="./images/mp4/PhoneApe.mp4"
-                    data-wf-ignore="true"
-                  />
-                  <source
-                    src="./images/mp4/PhoneApe.mp4"
-                    data-wf-ignore="true"
-                  />
-                </video>
-              </div>
-            </div>
-            <div id="S1-left-button" class="row items-center mr-4xl mt-3xl">
-              <div
-                class="column text-center"
-                style="z-index: 100; align-items: center"
-              >
-                <h4>Effectively hedge your NFT investments.</h4>
-
-                <h1 class="text-center text-weight700">
-                  Predict to earn with Wen.
-                </h1>
-
-                <a href="index.html" class="button xl main mt-lg w-button" style = "white-space: nowrap;">
-                  Launch app
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="S1-right" class="column align-right TestAnimation_2 ml-3xl">
-          <!-- <div class="button Green text-center text-lg ">UP</div> -->
-
-          <div class="S1T1Animation" style="gap: 100px">
-            <img
-              src="images/png/10232022png/T1.png"
-              class="mt-sm S1_left_picture_size1"
-              style="gap: 18px"
-            />
-
-            <img
-              src="images/png/10232022png/T2.png"
-              class="mt-sm S1_left_picture_size1"
-            />
-
-            <img
-              src="images/png/10232022png/T3.png"
-              class="mt-lg S1_left_picture_size1"
-            />
-          </div>
-
-          <div id="S1_left_pd_all" class="row items-center">
-            <div id="S1_left_pd_left" class="" style="vertical-align: middle">
-              <img
-                src="images/png/10232022png/L1.png"
-                class="S1L1Animation S1_left_picture_size2_1"
-              />
-              <img
-                src="images/png/10232022png/L2.png"
-                class="S1L2Animation S1_left_picture_size2_1"
-              />
-            </div>
-            <div
-              id="S1_left_pd_right"
-              class="ml-1_5_sm"
-              style="vertical-align: middle"
-            >
-              <img
-                src="images/png/10232022png/R1.png"
-                class="S1R1Animation mt-1xl S1_left_picture_size2_2"
-              />
-              <img
-                src="images/png/10232022png/R2.png"
-                class="S1R2Animation S1_left_picture_size2_2"
-              />
-              <img
-                src="images/png/10232022png/R3.png"
-                class="S1R3Animation S1_left_picture_size2_2"
-              />
-            </div>
-          </div>
-
-          <!-- <div class="  RectangleL3 S1L3Animation " style= "width : 900px;height: 350px; ">
-            <h4_2 class = "mt-1xl ml-sm"></br><strong>About: </strong></br>The Bored Ape Yacht Club is a collection of 
-              10,000 unique Bored Ape NFTs— unique digital collectibles living 
-              on the Ethereum blockchain. Your Bored Ape doubles as your 
-              Yacht Club membership card, and grants access to members-only 
-              benefits, the first of which is access to THE BATHROOM, 
-              a collaborative graffiti board. Future areas and perks 
-              can be unlocked by the community through roadmap activation. 
-            </br> </br> Visit www.BoredApeYachtClub.com for more details.</br> Source: https://opensea.io/collection/boredapeyachtclub 
-          </h4_2>
-          </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 
-  <div class="Section2 section mt-2xl">
-    <div class="row">
-      <div class="column align-center">
-        <h2 class="text-center">
-          Earn when you correctly predict<br />
-          the price movement of popular NFT <br />collections.
-        </h2>
-      </div>
-    </div>
-
-    <div class="Test2 ItemGap-lg">
-      <div class="Star2">
-        <div class="Star2Words textColorWhite ItemYCenter column align-center">
-          <div class="Test2">
-            <img src="images/svg/Star2.svg" class="Star2Icon" />
-            <div class="text-lg_2">8</div>
-            <div class="h2_2 text_gap">BLUE <br />CHIP</div>
-          </div>
-          <div class="h2_2">COLLECTIONS</div>
-        </div>
+    <section id="S1">
+      <div
+        id="S1-video"
+        data-poster-url=""
+        data-video-urls="./images/mp4/PhoneApe.mp4"
+        data-autoplay="true"
+        data-loop="true"
+        data-wf-ignore="true"
+        data-beta-bgvideo-upgrade="false"
+      >
+        <video
+          id=""
+          autoplay=""
+          loop=""
+          style="background-image: url('')"
+          muted=""
+          playsinline=""
+          data-wf-ignore="true"
+          data-object-fit="cover"
+        >
+          <source src="./images/mp4/PhoneApe.mp4" data-wf-ignore="true" />
+        </video>
       </div>
 
+      <div class="S1-text">
+        <p style=" color: white;  font-style: normal; font-weight: 600; font-size: 32px;">Next GEN NFT Finance Platform</p>
+        <p style="font-size : 54px; font-weight: 700; font-style: normal;">Predict to earn with Wen.</p>
+        <a
+          id="S1_button"
+          href="index.html"
+          class="button xl main"
+        >
+          Launch app
+        </a>
+      </div>
+    </section>
+
+    <section class="S2">
+      <p style="font-weight: 700; font-style: normal;">What will Bored Ape Yacht Club Floor Price be in a week?</p>
+    </section>
+
+    <section id="S3">
       <div>
-        <div
-          class="Section2_Rectangle items-center row justify-center ItemGap-lg"
-        >
-          <img src="images/svg/Rocket.svg" class="" />
-
-          <div class="column">
-            <div class="h4_2 text-weight700">10</div>
-            <div class="h2_2">Free Plays</div>
-          </div>
-        </div>
-      </div> 
-     
-      <div> 
-        <div
-          class="Section2_Rectangle items-center row justify-center ItemGap-lg"
-        >
-          <img src="images/svg/SquareDash.svg" />
-
-          <div class="column">
-            <div class="h4_2 text-weight700">50+</div>
-            <div class="h2_2">Beta Plays</div>
-          </div>
-        </div>      
+        <img src="images/png/10232022png/R1.png" class="S1T1Animation S3_pic" />
+        <img src="images/png/10232022png/R2.png" class="S1T2Animation S3_pic" />
+        <img src="images/png/10232022png/R3.png" class="S1T3Animation S3_pic" />
       </div>
-    </div>
-  </div> -->
+    </section>
 
-  <!-- <div class="LineMid2 section"></div> -->
+    <section id="S4">
+      <div class="S4_inline">
+        <div class="S4_pic_left column S1L1Animation">
+          <img
+            class="center_pic"
+            src="images/svg/GraphAscend.svg"
+            alt="rising"
+          />
+          <br />
+          <p>predict to Earn</p>
+          <p></p>
+        </div>
 
-  <div id="RectangleBackground2" class="RectangleS1"></div>
+        <div class="S4_pic_right S1L1Animation ">
+          <h4 class="S4_right_text">Earn $ETH by predicting top NFT collections floor price</h4>
+        </div>
 
-  <!--================================ Section3 Wez====================================-->
-  <div id="S3" class="Section3 section mt-3xl">
-    <div class="Test2_S3_inner mt-2xl">
-      <div class="Test2_S3_inner ItemGap-lg">
-        <div class="Section3_Rectangle">
-          <div class="row justify-center Test2 ItemGap-lg mt-2xl">
-            <img src="images/svg/GraphAscend.svg" class="" />
-            <div class="Section3_Title">Play To Earn</div>
-          </div>
-          <div class="Section3_Text mt-2xl">
-            Lorem ipsum dolor sit amet,<br />
-            consectetur adipiscing elit, sed <br />
-            do eiusmod tempor incididun.
-          </div>
+        <div class="S4_pic_left column S1L2Animation">
+          <img
+            class="center_pic"
+            src="images/svg/ShortIcon.svg"
+            alt="falling"
+          />
+          <br />
+          <p>Hedge Your Portfolio</p>
+          <p></p>
         </div>
-        <div class="mt-2xl"></div>
-        <div class="Test2_S3_inner ItemGap-lg">
-          <div class="Section3_Rectangle">
-            <div class="row justify-center Test2 ItemGap-lg mt-2xl">
-              <img src="images/svg/Laptop.svg" class="" />
-              <div class="Section3_Title">Actionable Insights</div>
-            </div>
-            <div class="Section3_Text mt-2xl">
-              Lorem ipsum dolor sit amet,<br />
-              consectetur adipiscing elit, sed <br />
-              do eiusmod tempor incididun.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="mt-2xl"></div>
-
-    <div class="Test2_S3_inner mt-2xl">
-      <div class="Test2_S3_inner ItemGap-lg">
-        <div class="Section3_Rectangle">
-          <div class="row justify-center Test2 ItemGap-lg mt-2xl">
-            <img src="images/svg/AnalyticsPie.svg" class="" />
-            <div class="Section3_Title">Collection Exposure</div>
-          </div>
-          <div class="Section3_Text mt-2xl">
-            Lorem ipsum dolor sit amet,<br />
-            consectetur adipiscing elit, sed <br />
-            do eiusmod tempor incididun.
-          </div>
-        </div>
-        <div class="mt-2xl"></div>
-        <div class="Test2_S3_inner ItemGap-lg">
-          <div class="Section3_Rectangle">
-            <div class="row justify-center Test2 ItemGap-lg mt-2xl">
-              <img src="images/svg/Settings.svg" class="" />
-              <div class="Section3_Title">Collection Exposure</div>
-            </div>
-            <div class="Section3_Text mt-2xl">
-              Lorem ipsum dolor sit amet,<br />
-              consectetur adipiscing elit, sed <br />
-              do eiusmod tempor incididun.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="mt-2xl"></div>
-    <div class="Test2_S3_inner mt-2xl">
-      <div class="Test2_S3_inner ItemGap-lg">
-        <div class="Section3_Rectangle">
-          <div class="row justify-center Test2 ItemGap-lg mt-2xl">
-            <img src="images/svg/ShortIcon.svg" class="" />
-            <div class="Section3_Title">Short NFT Collections</div>
-          </div>
-          <div class="Section3_Text mt-2xl">
-            Lorem ipsum dolor sit amet,<br />
-            consectetur adipiscing elit, sed <br />
-            do eiusmod tempor incididun.
-          </div>
-        </div>
-        <div class="mt-2xl"></div>
-        <div class="Test2_S3_inner ItemGap-lg">
-          <div class="Section3_Rectangle">
-            <div class="row justify-center Test2 ItemGap-lg mt-2xl">
-              <img src="images/svg/StarIcon.svg" class="" />
-              <div class="Section3_Title">Earn Ethereum</div>
-            </div>
-            <div class="Section3_Text mt-2xl">
-              Lorem ipsum dolor sit amet,<br />
-              consectetur adipiscing elit, sed <br />
-              do eiusmod tempor incididun.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--================================ Section3 Wez ====================================-->
-  <!--================================ Section4 Wez ====================================-->
-  <!-- <div class="LineBottom "></div> -->
-  <div class="row items-center section mt-3xl">
-    <div id="S4" class="Section4 section mt-3xl">
-      <div class="row">
-        <div class="column align-center mt-2xl">
-          <h1 class="text-weight700 text-center">How it works</h1>
-          <h3 class="mb-3xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing<br />
-            elit, sed do eiusmod tempor incididun.
-          </h3>
+        <div class="S4_pic_right S1L2Animation">
+          <h4 class="S4_right_text">Hedge your NFT investment if you believe your NFT is going down</h4>
         </div>
       </div>
 
-      <div class="ItemGap-lg">
-        <div id="S4_rectangle" class="mt-n2xl row ItemGap-lg">
-          <div class="Section4_Rectangle column align-center">
-            <img src="images/svg/bell.svg" class="mt-2xl" />
-            <div class="Section3_Title">Join</div>
-            <h5 class="text-center mt-1xl">
-              Sign up to receive your free play credit. <br />They&lsquo;re on
-              us during beta.
-            </h5>
-          </div>
-          <div class="mt-1xl"></div>
-          <div class="Section4_Rectangle column align-center">
-            <img src="images/svg/Add.svg" class="mt-2xl" />
-            <div class="Section3_Title">Trade</div>
-            <h5 class="text-center mt-1xl">
-              Bet on collection price movement. Up,<br />
-              down, or stay the same.
-            </h5>
-          </div>
-          <div class="mt-1xl"></div>
-          <div class="Section4_Rectangle column align-center">
-            <img src="images/svg/Coin.svg" class="mt-2xl" />
-            <div class="Section3_Title">Profit</div>
-            <h5 class="text-center mt-1xl">
-              Automatically received your winnings.<br />
-              Reinvest to play again or cash out.
-            </h5>
-          </div>
+      <!--  -->
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      <div class="S4_inline">
+        <div class="S4_pic_left column S1L3Animation">
+          <img
+            class="center_pic"
+            src="images/svg/AnalyticsPie.svg"
+            alt="AnalyticsPie"
+          />
+          <br />
+          <p>Actionable Insights</p>
+          <p></p>
+        </div>
+
+        <div class="S4_pic_right S1L3Animation">
+          <h4 class="S4_right_text">Watch LIVE market sentiment before making an investment decision</h4>
+        </div>
+
+        <div class="S4_pic_left column S1L4Animation">
+          <img
+            class="center_pic"
+            style="display: block"
+            src="images/svg/Laptop.svg"
+            alt="Laptop"
+          />
+          <br />
+          <p>Blue-Chip Exposure</p>
+          <p></p>
+        </div>
+
+        <div class="S4_pic_right S1L4Animation">
+          <h4 class="S4_right_text">Gain exposure to top and expensive NFT collections with just $1</h4>
         </div>
       </div>
-    </div>
-    <!--================================ Section4 Wez ====================================-->
+    </section>
 
-    <!--================================ Section4_2 Wez====================================-->
-    <div class="Section4_2 section mt-3xl">
-      <div class="Section4_2_Rectangle mt-3xl">
-        <div id="Section4-2_left" class="row align-left">
-          <div
-            id="Section4-2_left_inner"
-            class="column align-left ml-3xl"
-            style="gap: 16px; margin-top: 64px"
-          >
-            <h2 class="textColorWhite">Start playing. Wen? Now!</h2>
-
-            <h5 class="textColorWhite">
-              Join our beta test and receive free credits to play. <br />
-              We&lsquo;d love to hear what you have to say.
-            </h5>
-
-            <a
-              id=" S4_2_button"
-              href="index.html"
-              class="button xl main white mt-1xl"
-              style = "        white-space: nowrap; "
-              >Launch app
-            </a>
-          </div>
-        </div>
-
-        <div id="Section4-2_right" class="row align-right">
-          <div class="column align-right">
-            <div class="row justify-center">
-              <img
-                id="Section4-2_pic"
-                src="images/png/NewMaskGroup/MaskGroupAll.png"
-                class="MaskGroup1 ml-3xl"
-              />
-            </div>
-          </div>
-        </div>
+    <section id="S5">
+      <div id="S5_left">
+        <p>Start playing. Wen? Now!</p>
+        <p>
+          Join our beta test and receive free credits to play. <br />
+          We&lsquo;d love to hear what you have to say.
+        </p>
+        <a
+          id=" S5_button"
+          href="index.html"
+          class="button xl main white"
+          style="white-space: nowrap"
+          >Launch app
+        </a>
       </div>
-    </div>
-  </div>
 
-  <!--================================ Section4_2 Wez ====================================-->
+      <div id="S5_right">
+        <img
+          id="Section5_pic"
+          src="images/png/NewMaskGroup/MaskGroupAll.png"
+          alt="BottomCryptoPic"
+        />
+      </div>
+    </section>
 
-  <!--================================ SectionBottom ====================================-->
+    <footer id="S6">
+      <!-- <div class="LineBottom2 section"></div> -->
 
-  <!-- <div class="LineBottom2 section"></div> -->
+      <div id="S_bottom" class="RectangleBottom">
 
-  <div id="S_bottom" class="RectangleBottom sectionBottom">
-    <h5 id="S_bottom_text" class="text-center ItemYCenter">
-      Copyright &copy; Wen | Designed by Dan & Mark - Powered by Users Like You
-    </h5>
+        <h5 id="S_bottom_text" class="text-center ItemYCenter">
+          Copyright &copy; MetaWen | Powered by Users Like You
+        </h5>
 
-    <div id="S_bottom_icon" class="column align-right">
-      <div class="ItemGap-mid mr-3xl">
+        <div id ="S_bottom_icon">
         <a href="https://twitter.com/metawenio">
-          <img src="images/svg/Twitter.svg" />
+          <img src="images/svg/Twitter.svg" alt="Twitter" />
         </a>
         <a href="https://discord.gg/VtshCfBQ9S">
-          <img src="images/svg/Discord.svg" />
+          <img src="images/svg/Discord.svg" alt="Discord" />
         </a>
+        </div>
       </div>
-    </div>
-  </div>
+    </footer>
 
-  <script
-    src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ea1b995c6b4c10f74406a08"
-    type="text/javascript"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="http://api.writesonic.com/static/js/webflow.js"
-    type="text/javascript"
-  ></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script>
-    feather.replace();
-  </script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script>
+      feather.replace();
+    </script>
 
-  <script src="./js/SectionAnimation.js"></script>
-  <script src="./js/NightMode.js"></script>
+    <script src="./js/SectionAnimation.js"></script>
+    <script src="./js/NightMode.js"></script>
 
-  <script>
-    function Toggle2() {
-      var x = document.getElementById("header_bar1");
-      if (x.style.display === "") {
-        document.getElementById("header_bar0").style.display = "";
-        document.getElementById("header_bar1").style.display = "none";
-        document.getElementById("header_bar2").style.display = "none";
-        document.getElementById("header_bar3").style.display = "none";
-      } else {
-        document.getElementById("header_bar0").style.display = "none";
-        document.getElementById("header_bar1").style.display = "";
-        document.getElementById("header_bar2").style.display = "";
-        document.getElementById("header_bar3").style.display = "";
+    <script>
+      function Toggle2() {
+        var x = document.getElementById("header_bar1");
+        if (x.style.display === "") {
+          document.getElementById("header_bar0").style.display = "";
+          document.getElementById("header_bar1").style.display = "none";
+          document.getElementById("header_bar2").style.display = "none";
+          document.getElementById("header_bar3").style.display = "none";
+        } else {
+          document.getElementById("header_bar0").style.display = "none";
+          document.getElementById("header_bar1").style.display = "";
+          document.getElementById("header_bar2").style.display = "";
+          document.getElementById("header_bar3").style.display = "";
+        }
       }
-    }
-  </script>
+    </script>
 
-  <script>
-    if (window.innerWidth < 912) {
-      document.getElementById("header_bar4").style.display = "block";
-      document.getElementById("header_bar1").style.display = "none";
-      document.getElementById("header_bar2").style.display = "none";
-      document.getElementById("header_bar3").style.display = "none";
-    } else {
-      document.getElementById("header_bar4").style.display = "none";
-      document.getElementById("header_bar1").style.display = "";
-      document.getElementById("header_bar2").style.display = "";
-      document.getElementById("header_bar3").style.display = "";
-    }
-
-    window.onresize = function HideToggle2() {
+    <script>
       if (window.innerWidth < 912) {
         document.getElementById("header_bar4").style.display = "block";
         document.getElementById("header_bar1").style.display = "none";
@@ -917,10 +559,20 @@
         document.getElementById("header_bar2").style.display = "";
         document.getElementById("header_bar3").style.display = "";
       }
-    };
-  </script>
-</body>
 
-<!-- </html> -->
-
-
+      window.onresize = function HideToggle2() {
+        if (window.innerWidth < 912) {
+          document.getElementById("header_bar4").style.display = "block";
+          document.getElementById("header_bar1").style.display = "none";
+          document.getElementById("header_bar2").style.display = "none";
+          document.getElementById("header_bar3").style.display = "none";
+        } else {
+          document.getElementById("header_bar4").style.display = "none";
+          document.getElementById("header_bar1").style.display = "";
+          document.getElementById("header_bar2").style.display = "";
+          document.getElementById("header_bar3").style.display = "";
+        }
+      };
+    </script>
+  </body>
+</html>

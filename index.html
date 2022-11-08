@@ -10,348 +10,256 @@
     <!-- <link href="css/lander-409e35.webflow.css" rel="stylesheet" type="text/css" /> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 
-    <!-- <style>
-      @media screen and (max-width: 912px) {
-        /* For mobile phones: */
-        #header {
-          width: 90%;
-          /* margin-top: 3%; */
+    <style>
+      @media screen and (max-width: 1200px) {
+        body {
+          min-width: unset;
         }
 
-        #Body {
-          width: 95%;
-          max-width: 95%;
-          margin-left: auto;
-          margin-right: auto;
-          /* background: #f7fffc; */
+        #S1 {
+          min-width: unset;
+          width: 90vw;
         }
 
-        .container {
-          position: relative;
-          z-index: 1;
-          width: 100%;
-          max-width: 100%;
-          border-radius: 8px;
-          margin-top: 0px;
-          margin-bottom: 0px;
-          margin-left: auto;
-          margin-right: auto;
+        #S2 {
+          min-width: unset;
+          width: 90vw;
+        }
+        #S3 {
+          min-width: unset;
+          width: 90vw;
+        }
+        .S3_pic {
+          width: 32%;
+        }
+        #S4-1,
+        #S4-2 {
+          min-width: unset;
+          width: 90vw;
+          gap: 10px;
         }
 
-        .RectangleS1 {
-          /* Rectangle 5390 */
-          z-index: -1;
-          left: 0%;
+        #S5 {
+          min-width: unset;
+          width: 90vw;
+          height: 40vw;
+        }
+        #Section5_pic {
           display: none;
         }
 
-        #S1-video {
-          /* left : unset ; */
-          position: unset;
+        #S5_left {
+          margin-left: auto;
+          margin-right: auto;
         }
 
-        #S1-left {
-          position: relative;
-          width: 100%;
-          height: 70%;
-          align-items: center;
-          margin-left: unset;
-          margin-right: unset;
-          margin-bottom: 5%;
+        #S5_right {
+          display: none;
         }
 
-        .S1_left_picture_size1 {
+        #S6 {
           width: 100%;
         }
 
-        .S1_left_picture_size2_1 {
-          width: 100%;
-        }
-        .S1_left_picture_size2_2 {
-          width: 100%;
-        }
-
-        #S1_left_pd_all {
-          width: 100%;
-          display: unset;
-        }
-
-        #S1_left_pd_right {
-          margin-left: unset;
-          margin-right: unset;
-        }
-
-        #S1-left-button {
-          align-items: center;
+        #S_bottom {
+          min-width: unset;
           display: flex;
-          position: relative;
-          width: 100%;
-          /* margin-left : 20%; */
-          margin-bottom: 40%;
-
-          /* left : 30%; */
-          /* white-space: nowrap; */
         }
 
-        #S1-all {
-          position: relative;
-          display: unset;
-          vertical-align: middle;
-        }
+        @media screen and (max-width: 860px) {
+          .S1-text {
+            height: unset;
+          }
 
-        #S1-right {
-          margin-left: unset;
-          margin-right: unset;
-        }
+          .S1-text1,
+          .S1-text2 {
+            font-size: unset;
+          }
 
-        #S3 {
-          position: relative;
-          /* display : flex;  */
-          margin-top: 70%;
-          /* margin-left: 0; */
-        }
+          .center_pic {
+            max-height: 30px;
+            /* background-color: #45c74e; */
+          }
 
-        .Test2_S3_inner {
-          display: unset;
-          align-items: unset;
-        }
+          .S4_pic_left {
+            width: 15%;
+            height: 220px;
+            min-width: unset;
+            height: 220px;
+            /* background-color : green; */
+            margin-top: 15%;
+          }
 
-        .Section3_Rectangle {
-          /* max-width: 700%; */
-          height: 50%;
-          margin-left: unset;
-        }
+          .S4_inline {
+            gap: 10px;
+          }
+          .S4_full_rectangle {
+            box-sizing: border-box;
+            border-radius: 30px;
 
-        #S4 {
-          position: relative;
-          /* position: relative;
-        display : unset;  */
-          margin-top: 140%;
-        }
-        #S4_rectangle {
-          margin-top: -10%;
-          position: relative;
-          display: unset;
-        }
-        .Section4_2 {
-          position: relative;
-          width: 95%;
-          /* margin-top: 15%; */
-        }
-        .Section4_2_Rectangle {
-          width: 100%;
-          /* height : 200%; */
-          margin-left: 0%;
-          margin-top: 140%;
-        }
+            width: 600px;
+            max-width: 49vw;
+            height: 320px;
+            max-height: 50vh;
 
-        #Section4-2_left {
-          display: unset;
-          align-items: center;
-        }
+            gap: 10px;
 
-        #Section4-2_pic {
-          width: 0%;
-        }
+            border: 1px solid #e9eaf3;
+            box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+            margin-left: auto;
+            margin-right: auto;
+          }
 
-        #S4_2_button {
-          width: 40%;
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 15%;
-        }
+          .S4_pic_right {
+            background-color: white;
+            border: unset;
+            box-shadow: unset;
+          }
+          .S4_right_text {
+            margin-top: 45%;
+            font-size: 15px;
+          }
 
-        .RectangleBottom {
-          margin-top: 48%;
-          width: 100%;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        #S_bottom_text {
-          position: absolute;
-          top: 70%;
-          left: 50%;
-          margin-right: unset;
-          white-space: nowrap;
-        }
-
-        #S_bottom_icon {
-          position: absolute;
-          left: 50%;
-          top: 20%;
-
-          margin-left: auto;
-          margin-right: auto;
+          #S5_left {
+            width: 80%;
+            white-space: nowrap;
+            /* background-color: aquamarine; */
+          }
         }
       }
 
-      @media screen and (max-width: 540px) {
-        #header {
-          width: 85%;
-          /* margin-top: 3%; */
+      @media screen and (max-width: 480px) {
+        #header_icon1,
+        #header_icon2 {
+          display: none;
         }
 
-        #Body {
-          margin-left: 15%;
-          width: 100%;
-          max-width: 100%;
-          margin-left: auto;
-          margin-right: auto;
+        #header_icon3 {
+          margin-left: 30vw;
         }
 
-        #S1-video {
-          /* left : unset ; */
-          position: unset;
-          width: 100%;
-          left: 0%;
+        #header_right_icon {
+          font-size: 10px;
         }
 
-        #S3 {
-          position: relative;
-          /* display : flex;  */
-          margin-top: 70%;
-          /* margin-left: 0; */
+        .button.xl {
+          padding: 16px 0px;
+          border-radius: 46px;
+          font-size: 15px;
         }
-
-        #S4 {
-          position: relative;
-          /* position: relative;
-  display : unset;  */
-          margin-top: 170%;
-        }
-
-        .Section4_2_Rectangle {
-          width: 100%;
-          /* height : 200%; */
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 180%;
-          margin-bottom: 30%;
+        #S5 {
+          min-width: unset;
+          width: 90vw;
+          height: 50vw;
         }
       }
 
-      @media screen and (max-width: 414px) {
-        #header {
-          width: 90%;
-          /* margin-top: 3%; */
+      @media screen and (max-width: 390px) {
+        #S1 {
+          min-width: unset;
+          width: 90vw;
+          height: 140vw;
+          /* background-color: aqua; */
+          overflow: hidden;
         }
 
-        #Body {
-          /* margin-left: 15%; */
-          width: 100%;
-          max-width: 100%;
-          margin-left: auto;
-          margin-right: auto;
+        #S1-video > video {
+          width: 150%;
+          height: 140vw;
+          margin-top: 10%;
         }
 
-        #S1-video {
-          /* left : unset ; */
-          position: unset;
-          width: 110%;
-          left: 0%;
-          white-space: unset;
+        .S1-text {
+          margin-top: -80%;
         }
 
-        h1 {
-          font-size: 12px;
-          word-wrap: break-word;
-        }
-        h2 {
-          font-size: 12px;
-          word-wrap: break-word;
-        }
-        h3 {
-          font-size: 12px;
-          word-wrap: break-word;
+        .button.xl {
+          padding: 16px 0px;
+          border-radius: 46px;
+          font-size: 15px;
         }
 
-        h4 {
-          font-size: 12px;
-          word-wrap: break-word;
-        }
-        h5 {
-          font-size: 12px;
-          word-wrap: break-word;
+        .S4_pic_left {
+          margin-top: 5.5vh;
         }
 
-        #S3 {
-          position: relative;
-          /* display : flex;  */
-          margin-top: 130%;
-          /* margin-left: 0; */
+        .S4_right_text {
+          margin-top: 45%;
+          font-size: 10px;
+          margin-top: 10vh;
         }
 
-        .Section3_Rectangle {
-          /* max-width: 700%; */
-          width: 90%;
-          height: 50%;
-          margin-left: unset;
+        #S5 {
+          min-width: unset;
+          width: 100vw;
+          height: 70vw;
         }
 
-        .Section3_Text {
-          font-size: 12px;
+        .S4_full_rectangle {
+          box-sizing: border-box;
+          border-radius: 30px;
+
+          max-height: 30vh;
         }
 
-        #S4 {
-          position: relative;
-          /* position: relative;
-  display : unset;  */
-          margin-top: 200%;
-        }
-
-        .Section4_Rectangle {
-          margin-bottom: 25%;
-          width: 100%;
-          height: 30%;
-        }
-
-        .Section4_2_Rectangle {
-          width: 100%;
-          height: 80%;
-          margin-left: 0%;
-          margin-top: 180%;
-        }
-
-        #Section4-2_left_inner {
-          display: unset;
-          align-items: center;
-          text-align: center;
+        .S4_pic_right {
+          max-height: 30vh;
         }
       }
-    </style> -->
+    </style>
 
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
 
   <body id="Body">
     <header id="header" class="nav">
+      <a id="header_left_icon" href="index.html" aria-current="page">
+        <img src="images/png/MoonLogo.png" class="MoonIcon" />
+        <h1 id="header_left_word">Wen</h1>
+      </a>
 
-            
-            <a id="header_left_icon" href="index.html" aria-current="page" >
-              <img src="images/png/MoonLogo.png" class="MoonIcon" />
-              <h1 id="header_left_word">Wen</h1>
-            </a>
+      <div id="header_right_icon">
+        <a
+          id="header_icon1"
+          href="https://twitter.com/metawenio"
+          class="MasterSecondaryButton button main"
+          style="gap: 8px"
+        >
+          <img
+            src="images/svg/TwitterTopWhite.svg"
+            class="TwitterIconTop"
+            style="width: 45px"
+          />
+          Follow Us!
+        </a>
+        <a
+          id="header_icon2"
+          href="https://discord.gg/VtshCfBQ9S"
+          class="MasterSecondaryButton button main"
+          style="gap: 8px"
+          ;
+        >
+          Join Discord
+          <img
+            src="images/svg/DiscordTopWhite.svg"
+            alt="Discord_Top"
+            style="width: 40px"
+          />
+        </a>
 
-
-            <div id="header_right_icon" >
-              <a href="https://twitter.com/metawenio" class="MasterSecondaryButton button main" style="gap: 8px">
-                <img src="images/svg/TwitterTopWhite.svg" class="TwitterIconTop" style= "width: 45px"/>
-                Follow Us!
-            </a>
-            <a href="https://discord.gg/VtshCfBQ9S" class="MasterSecondaryButton button main" style="gap: 8px"; >
-                Join Discord
-                <img src="images/svg/DiscordTopWhite.svg" alt="Discord_Top" style= "width: 40px"/>
-            </a>
-          
-            <a href="index.html" class="MasterSecondaryButton button main">How it Works</a>
-              <!-- <div
+        <a
+          id="header_icon3"
+          href="index.html"
+          class="MasterSecondaryButton button main"
+          >How it Works</a
+        >
+        <!-- <div
                 id="header_bar4"
                 onclick="Toggle2() "
                 class="button fa fa-bars"
                 style="font-size: 64px; gap: 8px"
               ></div> -->
-              </div>
+      </div>
     </header>
 
     <section id="S1">
@@ -379,13 +287,9 @@
       </div>
 
       <div class="S1-text">
-        <p style=" color: white;  font-style: normal; font-weight: 600; font-size: 32px;">Next GEN NFT Finance Platform</p>
-        <p style="font-size : 54px; font-weight: 700; font-style: normal;">Predict to earn with Wen.</p>
-        <a
-          id="S1_button"
-          href="index.html"
-          class="button xl main"
-        >
+        <p class="S1-text1">Next GEN NFT Finance Platform</p>
+        <p class="S1-text2">Predict to earn with Wen.</p>
+        <a id="S1_button" href="index.html" class="button xl main">
           Launch app
         </a>
       </div>
@@ -403,75 +307,78 @@
       </div>
     </section>
 
-    <section id="S4">
+    <section id="S4-1">
       <div class="S4_inline">
-        <div class="S4_pic_left column S1L1Animation">
-          <img
-            class="center_pic"
-            src="images/svg/GraphAscend.svg"
-            alt="rising"
-          />
-          <br />
-          <p>predict to Earn</p>
-          <p></p>
-        </div>
+        <div class="S4_full_rectangle S1L1Animation">
+          <div class="S4_pic_left column">
+            <img
+              class="center_pic"
+              src="images/svg/GraphAscend.svg"
+              alt="rising"
+            />
+            <br />
+            <p>predict to Earn</p>
+          </div>
 
-        <div class="S4_pic_right S1L1Animation ">
-          <h4 class="S4_right_text">Earn $ETH by predicting top NFT collections floor price</h4>
+          <div class="S4_pic_right">
+            <h4 class="S4_right_text">
+              Earn $ETH by predicting top NFT collections floor price
+            </h4>
+          </div>
         </div>
+        <div class="S4_full_rectangle S1L2Animation">
+          <div class="S4_pic_left column">
+            <img
+              class="center_pic"
+              src="images/svg/ShortIcon.svg"
+              alt="falling"
+            />
+            <br />
+            <p>Hedge Your Portfolio</p>
+          </div>
 
-        <div class="S4_pic_left column S1L2Animation">
-          <img
-            class="center_pic"
-            src="images/svg/ShortIcon.svg"
-            alt="falling"
-          />
-          <br />
-          <p>Hedge Your Portfolio</p>
-          <p></p>
-        </div>
-
-        <div class="S4_pic_right S1L2Animation">
-          <h4 class="S4_right_text">Hedge your NFT investment if you believe your NFT is going down</h4>
+          <div class="S4_pic_right">
+            <h4 class="S4_right_text">
+              Hedge your NFT investment if you believe your NFT is going down
+            </h4>
+          </div>
         </div>
       </div>
+    </section>
 
-      <!--  -->
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-
+    <section id="S4-2">
       <div class="S4_inline">
-        <div class="S4_pic_left column S1L3Animation">
-          <img
-            class="center_pic"
-            src="images/svg/AnalyticsPie.svg"
-            alt="AnalyticsPie"
-          />
-          <br />
-          <p>Actionable Insights</p>
-          <p></p>
-        </div>
+        <div class="S4_full_rectangle S1L3Animation">
+          <div class="S4_pic_left column">
+            <img
+              class="center_pic"
+              src="images/svg/AnalyticsPie.svg"
+              alt="AnalyticsPie"
+            />
+            <br />
+            <p>Actionable Insights</p>
+            <p></p>
+          </div>
 
-        <div class="S4_pic_right S1L3Animation">
-          <h4 class="S4_right_text">Watch LIVE market sentiment before making an investment decision</h4>
+          <div class="S4_pic_right">
+            <h4 class="S4_right_text">
+              Watch LIVE market sentiment before making an investment decision
+            </h4>
+          </div>
         </div>
+        <div class="S4_full_rectangle S1L4Animation">
+          <div class="S4_pic_left column">
+            <img class="center_pic" src="images/svg/Laptop.svg" alt="Laptop" />
+            <br />
+            <p>Blue-Chip Exposure</p>
+            <p></p>
+          </div>
 
-        <div class="S4_pic_left column S1L4Animation">
-          <img
-            class="center_pic"
-            style="display: block"
-            src="images/svg/Laptop.svg"
-            alt="Laptop"
-          />
-          <br />
-          <p>Blue-Chip Exposure</p>
-          <p></p>
-        </div>
-
-        <div class="S4_pic_right S1L4Animation">
-          <h4 class="S4_right_text">Gain exposure to top and expensive NFT collections with just $1</h4>
+          <div class="S4_pic_right">
+            <h4 class="S4_right_text">
+              Gain exposure to top and expensive NFT collections with just $1
+            </h4>
+          </div>
         </div>
       </div>
     </section>
@@ -505,18 +412,17 @@
       <!-- <div class="LineBottom2 section"></div> -->
 
       <div id="S_bottom" class="RectangleBottom">
-
         <h5 id="S_bottom_text" class="text-center ItemYCenter">
           Copyright &copy; MetaWen | Powered by Users Like You
         </h5>
 
-        <div id ="S_bottom_icon">
-        <a href="https://twitter.com/metawenio">
-          <img src="images/svg/Twitter.svg" alt="Twitter" />
-        </a>
-        <a href="https://discord.gg/VtshCfBQ9S">
-          <img src="images/svg/Discord.svg" alt="Discord" />
-        </a>
+        <div id="S_bottom_icon">
+          <a href="https://twitter.com/metawenio">
+            <img src="images/svg/Twitter.svg" alt="Twitter_bottom_Icon"
+          /></a>
+          <a href="https://discord.gg/VtshCfBQ9S">
+            <img src="images/svg/Discord.svg" alt="Discord_botton_Icon" />
+          </a>
         </div>
       </div>
     </footer>
@@ -575,4 +481,3 @@
     </script>
   </body>
 </html>
-

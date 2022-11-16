@@ -9,203 +9,299 @@
     />
     <!-- <link href="css/lander-409e35.webflow.css" rel="stylesheet" type="text/css" /> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
     <style>
-      @media screen and (max-width: 1200px) {
-        body {
-          min-width: unset;
-        }
+            @media screen and (max-width: 1200px) {
+              body {
+                min-width: unset;
+              }
 
-        #S1 {
-          min-width: unset;
-          width: 90vw;
-        }
+              #S1 {
+                min-width: unset;
+                width: 90vw;
+              }
 
-        #S2 {
-          min-width: unset;
-          width: 90vw;
-        }
-        #S3 {
-          min-width: unset;
-          width: 90vw;
-        }
-        .S3_pic {
-          width: 32%;
-        }
-        #S4-1,
-        #S4-2 {
-          min-width: unset;
-          width: 90vw;
-          gap: 10px;
-        }
+              #S2 {
+                min-width: unset;
+                width: 90vw;
+              }
+              #S3 {
+                min-width: unset;
+                width: 90vw;
+              }
+              .S3_pic {
+                width: 32%;
+              }
+              #S4-1,
+              #S4-2 {
+                min-width: unset;
+                /* width: 90vw; */
+                gap: 10px;
+              }
 
-        #S5 {
-          min-width: unset;
-          width: 90vw;
-          height: 40vw;
-        }
-        #Section5_pic {
-          display: none;
-        }
+              #S5 {
+                min-width: unset;
+                width: 90vw;
+                /* height: 40vw; */
+              }
+              #Section5_pic {
+                display: none;
+              }
 
-        #S5_left {
-          margin-left: auto;
-          margin-right: auto;
-        }
+              #S5_left, #S5_button{
+                margin-left: auto;
+                margin-right: auto;
+              }
 
-        #S5_right {
-          display: none;
-        }
+              #S5_button{
+                margin-bottom: 5%;
+              }
 
-        #S6 {
-          width: 100%;
-        }
 
-        #S_bottom {
-          min-width: unset;
-          display: flex;
-        }
+              #S5_right {
+                display: none;
+              }
 
-        @media screen and (max-width: 860px) {
-          .S1-text {
-            height: unset;
-          }
+              #S6 {
+                width: 100%;
+              }
 
-          .S1-text1,
-          .S1-text2 {
-            font-size: unset;
-          }
+              #S_bottom {
+                min-width: unset;
+                display: flex;
+              }
+            }
+            @media screen and (max-width: 980px) {
+              /* -15% for each */
+              h11{
+                font-size: 46px;
+              }
+              h22{
+                font-size: 25px;
+              }
+              h33{
+                font-size: 27px;
+              }
+              h44{
+                font-size: 20px;
+              }
+              /* h55{
+                font-size: 22px;
+              }
+              h66{
+                font-size: 14px;
+              }
+              h77{
+                font-size: 14px;
+              } */
 
-          .center_pic {
-            max-height: 30px;
-            /* background-color: #45c74e; */
-          }
+            }
 
-          .S4_pic_left {
-            width: 15%;
-            height: 220px;
-            min-width: unset;
-            height: 220px;
-            /* background-color : green; */
-            margin-top: 15%;
-          }
+              @media screen and (max-width: 860px) {
+                .S1-text {
+                  height: unset;
+                  gap :16px;
+                }
 
-          .S4_inline {
-            gap: 10px;
-          }
-          .S4_full_rectangle {
-            box-sizing: border-box;
-            border-radius: 30px;
+                .S1-text1, .S1-text2, #S1_button, h4 {
+                  font-size : unset;
+                }
 
-            width: 600px;
-            max-width: 49vw;
-            height: 320px;
-            max-height: 50vh;
+ 
+                .center_pic {
+                  max-height: 30px;
+                  /* background-color: #45c74e; */
+                }
 
-            gap: 10px;
+                .S4_pic_left {
+                  width: 15%;
+                  height: 220px;
+                  min-width: unset;
+                  height: 220px;
+                  /* background-color : green; */
+                  margin-top: 15%;
+                }
 
-            border: 1px solid #e9eaf3;
-            box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
-            margin-left: auto;
-            margin-right: auto;
-          }
+                .S4_inline {
+                  gap: 10px;
+                }
+                .S4_full_rectangle {
+                  box-sizing: border-box;
+                  border-radius: 30px;
 
-          .S4_pic_right {
-            background-color: white;
-            border: unset;
-            box-shadow: unset;
-          }
-          .S4_right_text {
-            margin-top: 45%;
-            font-size: 15px;
-          }
+                  width: 600px;
+                  max-width: 49vw;
+                  height: 320px;
+                  max-height: 35vh;
 
-          #S5_left {
-            width: 80%;
-            white-space: nowrap;
-            /* background-color: aquamarine; */
-          }
-        }
-      }
+                  gap: 10px;
 
-      @media screen and (max-width: 480px) {
-        #header_icon1,
-        #header_icon2 {
-          display: none;
-        }
+                  border: 1px solid #e9eaf3;
+                  box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+                  margin-left: auto;
+                  margin-right: auto;
+                }
 
-        #header_icon3 {
-          margin-left: 30vw;
-        }
+                .S4_pic_right {
+                  background-color: white;
+                  border: unset;
+                  box-shadow: unset;
+                }
+                .S4_right_text {
+                  margin-top: 45%;
+                  font-size: 15px;
+                }
 
-        #header_right_icon {
-          font-size: 10px;
-        }
+                #S5_left {
+                  width: 80%;
+                  white-space: nowrap;
+                  /* backgr
+                  ound-color: aquamarine; */
+                }
 
-        .button.xl {
-          padding: 16px 0px;
-          border-radius: 46px;
-          font-size: 15px;
-        }
-        #S5 {
-          min-width: unset;
-          width: 90vw;
-          height: 50vw;
-        }
-      }
+                #S5_button {
 
-      @media screen and (max-width: 390px) {
-        #S1 {
-          min-width: unset;
-          width: 90vw;
-          height: 140vw;
-          /* background-color: aqua; */
-          overflow: hidden;
-        }
+                  padding: 10px 8px;
+                  gap: 8px;
+              }
+            }
+              @media screen and (max-width: 700px){
+                h22{
+                font-size: 20px;
+              }
+              }
+              @media screen and (max-width: 660px) {
+                
+                .S1-text {
+                  gap :unset;
+                }
 
-        #S1-video > video {
-          width: 150%;
-          height: 140vw;
-          margin-top: 10%;
-        }
+                #S5_button {
+                  padding: 4px 4px;
+                }
 
-        .S1-text {
-          margin-top: -80%;
-        }
+                .lineheight_auto{
+                  /* line-height: unset;
+                  height : unset; */
 
-        .button.xl {
-          padding: 16px 0px;
-          border-radius: 46px;
-          font-size: 15px;
-        }
+                  line-height: 0px;
+                  height : 40%;
 
-        .S4_pic_left {
-          margin-top: 5.5vh;
-        }
+                }
+                
 
-        .S4_right_text {
-          margin-top: 45%;
-          font-size: 10px;
-          margin-top: 10vh;
-        }
+              }
+              @media screen and (max-width: 580px) {
+              #header_icon1,
+              #header_icon2 {
+                display: none;
+              }
+            }
+            @media screen and (max-width: 480px) {
+              h1,h2,h3,h4,h11,h22,h33,h44{
+                font-size: unset;
+                font-weight: unset;
+              }
 
-        #S5 {
-          min-width: unset;
-          width: 100vw;
-          height: 70vw;
-        }
+              
+              #header_icon1,
+              #header_icon2 {
+                display: none;
+              }
 
-        .S4_full_rectangle {
-          box-sizing: border-box;
-          border-radius: 30px;
+              .S1-text{
+                margin-top: -50%;
+              }
+          
+              #header_icon3 {
+                margin-left: 30vw;
+              }
 
-          max-height: 30vh;
-        }
+              #header_right_icon {
+                font-size: 10px;
+              }
 
-        .S4_pic_right {
-          max-height: 30vh;
-        }
-      }
+              .button.xl {
+                padding: 16px 0px;
+                border-radius: 46px;
+                font-size: 15px;
+              }
+              #S5 {
+                min-width: unset;
+                width: 90vw;
+                /* height: 50vw; */
+              }
+            }
+
+            @media screen and (max-width: 390px) {
+              h44{
+                font-size: unset;
+              }
+              
+              #S1 {
+                min-width: unset;
+                width: 90vw;
+                height: 140vw;
+                /* background-color: aqua; */
+                overflow: hidden;
+              }
+
+              #S1-video > video {
+                width: 150%;
+                height: 140vw;
+                margin-top: 10%;
+              }
+
+              .S1-text {
+                margin-top: -100%;
+              }
+
+              .button.xl {
+                padding: 16px 0px;
+                border-radius: 46px;
+                font-size: 15px;
+              }
+
+              .S4_pic_left {
+                margin-top: 5.5vh;
+              }
+
+              .S4_right_text {
+                margin-top: 45%;
+                font-size: 10px;
+                margin-top: 10vh;
+              }
+
+              #S5 {
+                min-width: unset;
+                width: 100vw;
+                height: 70vw;
+              }
+
+              .S4_full_rectangle {
+                box-sizing: border-box;
+                border-radius: 30px;
+
+                max-height: 30vh;
+              }
+
+              .S4_pic_right {
+                max-height: 30vh;
+              }
+
+              #S5_left {
+margin-top: 0%;
+                }
+            }
+            @media screen and (max-width: 320px) {
+
+            .S1-text {
+                margin-top: -120%;
+              }
+            }
     </style>
 
     <script src="https://unpkg.com/feather-icons"></script>
@@ -215,7 +311,7 @@
     <header id="header" class="nav">
       <a id="header_left_icon" href="index.html" aria-current="page">
         <img src="images/png/MoonLogo.png" class="MoonIcon" />
-        <h1 id="header_left_word">Wen</h1>
+        <h11 id="header_left_text">Wen</h11>
       </a>
 
       <div id="header_right_icon">
@@ -228,9 +324,9 @@
           <img
             src="images/svg/TwitterTopWhite.svg"
             class="TwitterIconTop"
-            style="width: 45px"
+            style="width: 16px"
           />
-          Follow Us!
+          <h66>Follow Us!</h66>
         </a>
         <a
           id="header_icon2"
@@ -239,11 +335,11 @@
           style="gap: 8px"
           ;
         >
-          Join Discord
+          <h66>Join Discord</h66>
           <img
             src="images/svg/DiscordTopWhite.svg"
             alt="Discord_Top"
-            style="width: 40px"
+            style="width: 16px"
           />
         </a>
 
@@ -251,7 +347,7 @@
           id="header_icon3"
           href="index.html"
           class="MasterSecondaryButton button main"
-          >How it Works</a
+          ><h66>How it Works</h66></a
         >
         <!-- <div
                 id="header_bar4"
@@ -286,30 +382,32 @@
         </video>
       </div>
 
-      <div class="S1-text">
-        <p class="S1-text1">Next GEN NFT Finance Platform</p>
-        <p class="S1-text2">Predict to earn with Wen.</p>
-        <a id="S1_button" href="index.html" class="button xl main">
+      <div class="S1-text" style = "z-index: 0;">
+        <h33 class="S1-text1" >Next GEN NFT Finance Platform</h33>
+        <h11 class="S1-text2">Predict to earn with Wen.</h11>
+        <a id="S1_button" href="index.html" class="S5 button xl main">
           Launch app
         </a>
       </div>
     </section>
 
-    <section class="S2">
-      <p>What will Bored Ape Yacht Club Floor Price be in a week?</p>
+    <section class="S2 section">
+      <h22 class= "S2_text">
+        What will Bored Ape Yacht Club Floor Price be in a week?
+      </h22>
     </section>
 
-    <section id="S3">
+    <section id="S3" class= "section ">
       <div>
-        <img src="images/png/10232022png/R1.png" class="S1T1Animation S3_pic" />
-        <img src="images/png/10232022png/R2.png" class="S1T2Animation S3_pic" />
-        <img src="images/png/10232022png/R3.png" class="S1T3Animation S3_pic" />
+        <img src="images/png/10232022png/R1.png" class="S1T1Animation_ S3_pic " />
+        <img src="images/png/10232022png/R2.png" class="S1T2Animation_ S3_pic" />
+        <img src="images/png/10232022png/R3.png" class="S1T3Animation_ S3_pic" />
       </div>
     </section>
 
     <section id="S4-1">
       <div class="S4_inline">
-        <div class="S4_full_rectangle S1L1Animation">
+        <div class="S4_full_rectangle S1L1Animation_ sectionAnimation_ section">
           <div class="S4_pic_left column">
             <img
               class="center_pic"
@@ -317,16 +415,16 @@
               alt="rising"
             />
             <br />
-            <p>predict to Earn</p>
+            <h44>predict to Earn</h44>
           </div>
 
-          <div class="S4_pic_right">
-            <h4 class="S4_right_text">
+          <div class="S4_pic_right S4_box_height">
+            <h44 class="S4_right_text S4_box_height">
               Earn $ETH by predicting top NFT collections floor price
-            </h4>
+            </h44>
           </div>
         </div>
-        <div class="S4_full_rectangle S1L2Animation">
+        <div class="S4_full_rectangle S1L2Animation_ sectionAnimation_ section">
           <div class="S4_pic_left column">
             <img
               class="center_pic"
@@ -334,13 +432,13 @@
               alt="falling"
             />
             <br />
-            <p>Hedge Your Portfolio</p>
+            <h44>Hedge Your Portfolio</h44>
           </div>
 
-          <div class="S4_pic_right">
-            <h4 class="S4_right_text">
+          <div class="S4_pic_right S4_box_height">
+            <h55 class="S4_right_text S4_box_height">
               Hedge your NFT investment if you believe your NFT is going down
-            </h4>
+            </h55>
           </div>
         </div>
       </div>
@@ -348,7 +446,7 @@
 
     <section id="S4-2">
       <div class="S4_inline">
-        <div class="S4_full_rectangle S1L3Animation">
+        <div class="S4_full_rectangle  S1L3Animation_ sectionAnimation_ section">
           <div class="S4_pic_left column">
             <img
               class="center_pic"
@@ -356,47 +454,48 @@
               alt="AnalyticsPie"
             />
             <br />
-            <p>Actionable Insights</p>
+            <h44>Actionable Insights</h44>
             <p></p>
           </div>
 
-          <div class="S4_pic_right">
-            <h4 class="S4_right_text">
+          <div class="S4_pic_right S4_box_height">
+            <h55 class="S4_right_text S4_box_height">
               Watch LIVE market sentiment before making an investment decision
-            </h4>
+            </h55>
           </div>
         </div>
-        <div class="S4_full_rectangle S1L4Animation">
+        <div class="S4_full_rectangle  S1L4Animation_ sectionAnimation_ section">
           <div class="S4_pic_left column">
             <img class="center_pic" src="images/svg/Laptop.svg" alt="Laptop" />
             <br />
-            <p>Blue-Chip Exposure</p>
+            <h44>Blue-Chip Exposure</h44>
             <p></p>
           </div>
 
-          <div class="S4_pic_right">
-            <h4 class="S4_right_text">
+          <div class="S4_pic_right S4_box_height">
+            <h55 class="S4_right_text S4_box_height">
               Gain exposure to top and expensive NFT collections with just $1
-            </h4>
+            </h55>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="S5">
-      <div id="S5_left">
-        <p>Start playing. Wen? Now!</p>
-        <p>
+    <section >
+    <div id="S5" class= "section ">
+        
+      <div id="S5_left" class= "lineheight_auto"  >
+        <h33>Start playing. Wen? Now!</h33>
+        <h66>
           Join our beta test and receive free credits to play. <br />
           We&lsquo;d love to hear what you have to say.
-        </p>
-        <a
-          id=" S5_button"
+        </h66>
+        <div
+          id="S5_button"
           href="index.html"
-          class="button xl main white"
-          style="white-space: nowrap"
-          >Launch app
-        </a>
+          class="button"
+          ><h44>Launch app</h44>
+      </div>
       </div>
 
       <div id="S5_right">
@@ -406,15 +505,16 @@
           alt="BottomCryptoPic"
         />
       </div>
+    </div>
     </section>
 
     <footer id="S6">
       <!-- <div class="LineBottom2 section"></div> -->
 
       <div id="S_bottom" class="RectangleBottom">
-        <h5 id="S_bottom_text" class="text-center ItemYCenter">
+        <h6 id="S_bottom_text" class="text-center ItemYCenter">
           Copyright &copy; MetaWen | Powered by Users Like You
-        </h5>
+        </h6>
 
         <div id="S_bottom_icon">
           <a href="https://twitter.com/metawenio">
@@ -435,49 +535,7 @@
     <script src="./js/SectionAnimation.js"></script>
     <script src="./js/NightMode.js"></script>
 
-    <script>
-      function Toggle2() {
-        var x = document.getElementById("header_bar1");
-        if (x.style.display === "") {
-          document.getElementById("header_bar0").style.display = "";
-          document.getElementById("header_bar1").style.display = "none";
-          document.getElementById("header_bar2").style.display = "none";
-          document.getElementById("header_bar3").style.display = "none";
-        } else {
-          document.getElementById("header_bar0").style.display = "none";
-          document.getElementById("header_bar1").style.display = "";
-          document.getElementById("header_bar2").style.display = "";
-          document.getElementById("header_bar3").style.display = "";
-        }
-      }
-    </script>
 
-    <script>
-      if (window.innerWidth < 912) {
-        document.getElementById("header_bar4").style.display = "block";
-        document.getElementById("header_bar1").style.display = "none";
-        document.getElementById("header_bar2").style.display = "none";
-        document.getElementById("header_bar3").style.display = "none";
-      } else {
-        document.getElementById("header_bar4").style.display = "none";
-        document.getElementById("header_bar1").style.display = "";
-        document.getElementById("header_bar2").style.display = "";
-        document.getElementById("header_bar3").style.display = "";
-      }
 
-      window.onresize = function HideToggle2() {
-        if (window.innerWidth < 912) {
-          document.getElementById("header_bar4").style.display = "block";
-          document.getElementById("header_bar1").style.display = "none";
-          document.getElementById("header_bar2").style.display = "none";
-          document.getElementById("header_bar3").style.display = "none";
-        } else {
-          document.getElementById("header_bar4").style.display = "none";
-          document.getElementById("header_bar1").style.display = "";
-          document.getElementById("header_bar2").style.display = "";
-          document.getElementById("header_bar3").style.display = "";
-        }
-      };
-    </script>
   </body>
 </html>

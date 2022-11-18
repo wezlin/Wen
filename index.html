@@ -73,15 +73,29 @@
         #S6 {
           width: 100%;
         }
+        #S5_top_text{
+          padding-top: 1.5em;
+        }
 
         #S_bottom {
           min-width: unset;
           display: flex;
+          width: 90%;
+        }
+        #S_bottom_text {
+          padding-left: 5%;
+
+          height : auto;
+          width: 70%;
         }
 
-        #S5_top_text{
-          padding-top: 1.5em;
+        #S_bottom_icon{
+          width: 30%;
+          padding-right: 5%;
+          min-width: 30%;
         }
+
+
       }
       @media screen and (max-width: 980px) {
         /* -15% for each */
@@ -216,6 +230,16 @@
           line-height: 0px;
           height: 40%;
         }
+
+
+        #S_bottom {
+          min-width: unset;
+          display: flex;
+          width: 95%;
+        }
+
+
+
       }
 
       /* @media screen and (max-width: 620px) {
@@ -379,6 +403,25 @@
         #S5_left {
           margin-top: 0%;
         }
+
+
+
+        #S_bottom {
+          min-width: unset;
+          display: flex;
+          width: 100%;
+          gap:5%;
+        }
+        #S_bottom_text {
+          padding-left: 0%;
+        }
+
+        #S_bottom_icon{
+
+          padding-right: 0%;
+        }
+
+
       }
 
       @media screen and (max-width: 320px) {
@@ -663,6 +706,5 @@
     <script src="./js/NightMode.js"></script>
   </body>
 </html>
-
 
 

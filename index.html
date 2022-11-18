@@ -13,82 +13,91 @@
       href="https://fonts.googleapis.com/css?family=Comfortaa"
       rel="stylesheet"
     />
+
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
     <style>
-            @media screen and (max-width: 1200px) {
-              body {
-                min-width: unset;
-              }
+      @media screen and (max-width: 1200px) {
+        body {
+          min-width: unset;
+        }
 
-              #S1 {
-                min-width: unset;
-                width: 90vw;
-              }
+        #S1 {
+          min-width: unset;
+          width: 90%;
+        }
 
-              #S2 {
-                min-width: unset;
-                width: 90vw;
-              }
-              #S3 {
-                min-width: unset;
-                width: 90vw;
-              }
-              .S3_pic {
-                width: 32%;
-              }
-              #S4-1,
-              #S4-2 {
-                min-width: unset;
-                /* width: 90vw; */
-                gap: 10px;
-              }
+        #S2 {
+          min-width: unset;
+          width: 90%;
+        }
+        #S3 {
+          min-width: unset;
+          width: 90%;
+          /* margin :auto; */
+        }
+        .S3_pic {
+          width: 32%;
+        }
+        #S4-1,
+        #S4-2 {
+          min-width: unset;
+          /* width: 90%; */
+          gap: 10px;
+        }
+      
 
-              #S5 {
-                min-width: unset;
-                width: 90vw;
-                /* height: 40vw; */
-              }
-              #Section5_pic {
-                display: none;
-              }
+        #S5 {
+          min-width: unset;
+          /* width: 90%; */
+          /* height: 40%; */
+        }
+        #Section5_pic {
+          display: none;
+        }
 
-              #S5_left, #S5_button{
-                margin-left: auto;
-                margin-right: auto;
-              }
+        #S5_left,
+        #S5_button {
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-              #S5_button{
-                margin-bottom: 5%;
-              }
+        #S5_button {
+          margin-bottom: 5%;
+        }
 
+        #S5_right {
+          display: none;
+        }
 
-              #S5_right {
-                display: none;
-              }
+        #S6 {
+          width: 100%;
+        }
 
-              #S6 {
-                width: 100%;
-              }
+        #S_bottom {
+          min-width: unset;
+          display: flex;
+        }
 
-              #S_bottom {
-                min-width: unset;
-                display: flex;
-              }
-            }
-            @media screen and (max-width: 980px) {
-              /* -15% for each */
-              h11{
-                font-size: 46px;
-              }
-              h22{
-                font-size: 25px;
-              }
-              h33{
-                font-size: 27px;
-              }
-              h44{
-                font-size: 20px;
-              }
-              /* h55{
+        #S5_top_text{
+          padding-top: 1.5em;
+        }
+      }
+      @media screen and (max-width: 980px) {
+        /* -15% for each */
+        h11 {
+          font-size: 46px;
+        }
+        h22 {
+          font-size: 25px;
+        }
+        h33 {
+          font-size: 27px;
+        }
+        h44 {
+          font-size: 20px;
+        }
+        /* h55{
                 font-size: 22px;
               }
               h66{
@@ -97,239 +106,283 @@
               h77{
                 font-size: 14px;
               } */
+      }
 
-            }
+      @media screen and (max-width: 860px) {
+        .S1-text {
+          height: unset;
+          gap: 16px;
+        }
 
-              @media screen and (max-width: 860px) {
-                .S1-text {
-                  height: unset;
-                  gap :16px;
-                }
+        .S1-text1,
+        .S1-text2,
+        #S1_button,
+        h4 {
+          font-size: unset;
+        }
 
-                .S1-text1, .S1-text2, #S1_button, h4 {
-                  font-size : unset;
-                }
+        .center_pic {
+          max-height: 30px;
+          /* background-color: #45c74e; */
+        }
 
- 
-                .center_pic {
-                  max-height: 30px;
-                  /* background-color: #45c74e; */
-                }
+        .S4_pic_left {
+          width: 15%;
+          height: 220px;
+          min-width: unset;
+          height: 220px;
+          width: 90%;
+          /* background-color : green; */
+          margin-top: unset;
+        }
+        .S4_inline {
+          gap: 10px;
+        }
+        .S4_full_rectangle {
+          box-sizing: border-box;
+          border-radius: 30px;
 
-                .S4_pic_left {
-                  width: 15%;
-                  height: 220px;
-                  min-width: unset;
-                  height: 220px;
-                  /* background-color : green; */
-                  margin-top: 15%;
-                }
+          width: 600px;
+          max-width: 49%;
+          /* height: 320px; */
+          max-height: 45%;
+          padding-bottom: 5%;
+          gap: 10px;
 
-                .S4_inline {
-                  gap: 10px;
-                }
-                .S4_full_rectangle {
-                  box-sizing: border-box;
-                  border-radius: 30px;
+          border: 1px solid #e9eaf3;
+          box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
+          margin-left: auto;
+          margin-right: auto;
 
-                  width: 600px;
-                  max-width: 49vw;
-                  height: 320px;
-                  max-height: 45vh;
+          flex-direction: column;
 
-                  gap: 10px;
+          /* background-color: pink; */
+        }
+        .S4_right_box_height {
+          max-height: 100px;
+          height: 50%;
+          /* background-color :pink; */
+        }
 
-                  border: 1px solid #e9eaf3;
-                  box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
-                  margin-left: auto;
-                  margin-right: auto;
-                }
+        .S4_pic_right {
+          background-color: white;
+          border: unset;
+          box-shadow: unset;
+          max-width: unset;
+          width: 100%;
+          /* background-color: aquamarine; */
+          height: 50%;
+        }
+        .S4_right_text {
+          margin-top: 45%;
+          font-size: 15px;
 
-                .S4_pic_right {
-                  background-color: white;
-                  border: unset;
-                  box-shadow: unset;
-                }
-                .S4_right_text {
-                  margin-top: 45%;
-                  font-size: 15px;
-                }
+          /* background-color: pink; */
+          padding:5% 10px;
+        }
 
-                #S5_left {
-                  width: 80%;
-                  white-space: nowrap;
-                  /* backgr
+        #S5_left {
+          width: 80%;
+          /* white-space: nowrap; */
+          /* backgr
                   ound-color: aquamarine; */
-                }
+        }
 
-                #S5_button {
+        #S5_button {
+          padding: 10px 8px;
+          gap: 8px;
+        }
+      }
+      @media screen and (max-width: 750px) {
+        h22 {
+          font-size: 20px;
+        }
+      }
+      @media screen and (max-width: 660px) {
+        .S1-text {
+          gap: unset;
+        }
 
-                  padding: 10px 8px;
-                  gap: 8px;
-              }
-            }
-              @media screen and (max-width: 700px){
-                h22{
-                font-size: 20px;
-              }
-              }
-              @media screen and (max-width: 660px) {
-                
-                .S1-text {
-                  gap :unset;
-                }
+        #S5_button {
+          padding: 4px 4px;
+        }
 
-                #S5_button {
-                  padding: 4px 4px;
-                }
-
-                .lineheight_auto{
-                  /* line-height: unset;
+        .lineheight_auto {
+          /* line-height: unset;
                   height : unset; */
 
-                  line-height: 0px;
-                  height : 40%;
+          line-height: 0px;
+          height: 40%;
+        }
+      }
 
-                }
-                
+      /* @media screen and (max-width: 620px) {
+        h22 {
+          font-size: 16px;
+        } */
+      }
+      @media screen and (max-width: 580px) {
+        #header_icon1,
+        #header_icon2 {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        h1,
+        h2,
+        h3,
+        h4,
+        h11,
+        h22,
+        h33,
+        h44 {
+          font-size: unset;
+          font-weight: unset;
+        }
 
-              }
-              @media screen and (max-width: 580px) {
-              #header_icon1,
-              #header_icon2 {
-                display: none;
-              }
-            }
-            @media screen and (max-width: 480px) {
-              h1,h2,h3,h4,h11,h22,h33,h44{
-                font-size: unset;
-                font-weight: unset;
-              }
+        #header_icon1,
+        #header_icon2 {
+          display: none;
+        }
 
-              
-              #header_icon1,
-              #header_icon2 {
-                display: none;
-              }
+        .S1-text {
+          margin-top: -50%;
+        }
 
-              .S1-text{
-                margin-top: -50%;
-              }
-          
-              #header_icon3 {
-                margin-left: 30vw;
-              }
+        #header_icon3 {
+          margin-left: 30%;
+        }
 
-              #header_right_icon {
-                font-size: 10px;
-              }
+        #header_right_icon {
+          font-size: 10px;
+        }
 
-              .button.xl {
-                padding: 16px 0px;
-                border-radius: 46px;
-                font-size: 15px;
-              }
+        .button.xl {
+          padding: 16px 0px;
+          border-radius: 46px;
+          font-size: 15px;
+        }
 
+        .S4_full_rectangle {
+          box-sizing: border-box;
+          border-radius: 30px;
+          /* max-width: 40%; */
+          max-height: 35%;
+        }
 
-              .S4_full_rectangle {
-                box-sizing: border-box;
-                border-radius: 30px;
-                max-width: 40vw;
-                max-height: 25vh;
- 
-              }
+        .S4_right_text,
+        .S4_left_text {
+          line-height: 1.5em;
+        }
 
+        #S5 {
+          min-width: unset;
+          /* width: 90%; */
+          /* height: 50%; */
+        }
+      }
 
-              .S4_right_text, .S4_left_text {
-                line-height:1.5em;
-              }
-
-
-
-              #S5 {
-                min-width: unset;
-                width: 90vw;
-                /* height: 50vw; */
-              }
-            }
-
-            @media screen and (max-width: 391px) {
-              h44{
-                font-size: unset;
-              }
-              
-              #S1 {
-                min-width: unset;
-                width: 90vw;
-                height: 140vw;
-                /* background-color: aqua; */
-                overflow: hidden;
-              }
-
-              #S1-video > video {
-                width: 150%;
-                height: 140vw;
-                margin-top: 10%;
-              }
-
-              .S1-text {
-                margin-top: -100%;
-              }
-
-              .button.xl {
-                padding: 16px 0px;
-                border-radius: 46px;
-                font-size: 15px;
-              }
-              
-              .S4_pic_left {
-                margin-top: 5.5vh;
-                
-              }
-
-           .S4_right_text {
-                margin-top: 45%;
-                font-size: 10px;
-                margin-top: 10vh;
-                line-height:1.5em;
-              /* background-color: pink; */
-              }
-
-
-              .S4_left_text {
-                line-height:1em;
-              }
-
-              .S4_pic_right {
-                max-height: 20vh;
-              }
-
-              .S4_full_rectangle {
-                box-sizing: border-box;
-                border-radius: 30px;
-                max-width: 40vw;
-                max-height: 25vh;
-              }
-
-              #S5 {
-                min-width: unset;
-                width: 90vw;
-                height: 70vw;
-              }
+      @media screen and (max-width: 391px) {
+        h1,
+        h2,
+        h3,
+        h4,
+        h11,
+        h22,
+        h33,
+        h44 {
+          font-size: unset;
+          font-weight: unset;
+          line-height: 2em;
+        }
 
 
 
-              #S5_left {
-margin-top: 0%;
-                }
-            }
+        #S1 {
+          min-width: unset;
+          width: 85%;
+          height: 140%;
+          /* background-color: aqua; */
+          overflow: hidden;
+          border-radius: 0px;
+        }
 
-            @media screen and (max-width: 320px) {
 
-            .S1-text {
-                margin-top: -120%;
-              }
-            }
+        .S1-text {
+          margin-top: -50%;
+        }
+
+        .button.xl {
+          padding: 16px 0px;
+          border-radius: 46px;
+          font-size: 15px;
+        }
+
+        .S4_pic_left {
+          /* margin-top: 5.5%; */
+          height : 30%;
+        }
+
+        .S4_right_text {
+          margin-top: 45%;
+          font-size: 10px;
+          margin-top: 10%;
+          line-height: 1.5em;
+          /* background-color: pink; */
+        
+          margin-bottom: 10%;
+  
+        }
+
+        .S4_left_text {
+          line-height: 1em;
+        
+        }
+
+        .S4_pic_right {
+          height : 30%;
+          /* background-color: pink; */
+        }
+
+        .S4_full_rectangle {
+          box-sizing: border-box;
+          border-radius: 30px;
+          /* max-width: 45%; */
+          /* max-height: 30%; */
+          /* height:40%; */
+          max-height: 13rem;
+
+        }
+
+        #S5 {
+          min-width: unset;
+          /* width: 90%; */
+          height: 70%;
+        }
+
+        #S5_left {
+          margin-top: 0%;
+        }
+      }
+
+      @media screen and (max-width: 320px) {
+        .S1-text {
+          margin-top: -120%;
+        }
+
+        .S4_full_rectangle {
+          max-width: 50%;
+          /* max-height: 45%; */
+        }
+
+        #S5 {
+          min-width: unset;
+          width: 90%;
+          height: 80%;
+        }
+
+
+      }
     </style>
 
     <script src="https://unpkg.com/feather-icons"></script>
@@ -338,7 +391,7 @@ margin-top: 0%;
   <body id="Body">
     <header id="header" class="nav">
       <a id="header_left_icon" href="index.html" aria-current="page">
-        <img src="images/png/MoonLogo.png" class="MoonIcon" />
+        <img src="images/png/NewLogo.png" class="MoonIcon" />
         <h11 id="header_left_text">Wen</h11>
       </a>
 
@@ -410,8 +463,8 @@ margin-top: 0%;
         </video>
       </div>
 
-      <div class="S1-text" style = "z-index: 0;">
-        <h33 class="S1-text1" >Next GEN NFT Finance Platform</h33>
+      <div class="S1-text" style="z-index: 0">
+        <h33 class="S1-text1">Next GEN NFT Finance Platform</h33>
         <h11 class="S1-text2">Predict to earn with Wen.</h11>
         <a id="S1_button" href="index.html" class="S5 button xl main">
           Launch app
@@ -420,16 +473,25 @@ margin-top: 0%;
     </section>
 
     <section class="S2 section">
-      <h22 class= "S2_text">
+      <h22 class="S2_text">
         What will Bored Ape Yacht Club Floor Price be in a week?
       </h22>
     </section>
 
-    <section id="S3" class= "section ">
+    <section id="S3" class="section">
       <div>
-        <img src="images/png/10232022png/R1.png" class="S1T1Animation_ S3_pic " />
-        <img src="images/png/10232022png/R2.png" class="S1T2Animation_ S3_pic" />
-        <img src="images/png/10232022png/R3.png" class="S1T3Animation_ S3_pic" />
+        <img
+          src="images/png/10232022png/R1.png"
+          class="S1T1Animation_ S3_pic"
+        />
+        <img
+          src="images/png/10232022png/R2.png"
+          class="S1T2Animation_ S3_pic"
+        />
+        <img
+          src="images/png/10232022png/R3.png"
+          class="S1T3Animation_ S3_pic"
+        />
       </div>
     </section>
 
@@ -446,8 +508,8 @@ margin-top: 0%;
             <h44 class="S4_left_text">predict to Earn</h44>
           </div>
 
-          <div class="S4_pic_right S4_box_height">
-            <h44 class="S4_right_text S4_box_height">
+          <div class="S4_pic_right ">
+            <h44 class="S4_right_text S4_right_box_height">
               Earn $ETH by predicting top NFT collections floor price
             </h44>
           </div>
@@ -463,8 +525,8 @@ margin-top: 0%;
             <h44 class="S4_left_text">Hedge Your Portfolio</h44>
           </div>
 
-          <div class="S4_pic_right S4_box_height">
-            <h55 class="S4_right_text S4_box_height" >
+          <div class="S4_pic_right ">
+            <h55 class="S4_right_text S4_right_box_height">
               Hedge your NFT investment if you believe your NFT is going down
             </h55>
           </div>
@@ -474,7 +536,7 @@ margin-top: 0%;
 
     <section id="S4-2">
       <div class="S4_inline">
-        <div class="S4_full_rectangle  S1L3Animation_ sectionAnimation_ section">
+        <div class="S4_full_rectangle S1L3Animation_ sectionAnimation_ section">
           <div class="S4_pic_left column">
             <img
               class="center_pic"
@@ -486,13 +548,13 @@ margin-top: 0%;
             <p></p>
           </div>
 
-          <div class="S4_pic_right S4_box_height">
-            <h55 class="S4_right_text S4_box_height">
+          <div class="S4_pic_right ">
+            <h55 class="S4_right_text S4_right_box_height" style="clear : right;">
               Watch LIVE market sentiment before making an investment decision
             </h55>
           </div>
         </div>
-        <div class="S4_full_rectangle  S1L4Animation_ sectionAnimation_ section">
+        <div class="S4_full_rectangle S1L4Animation_ sectionAnimation_ section">
           <div class="S4_pic_left column">
             <img class="center_pic" src="images/svg/Laptop.svg" alt="Laptop" />
             <br />
@@ -500,8 +562,8 @@ margin-top: 0%;
             <p></p>
           </div>
 
-          <div class="S4_pic_right S4_box_height">
-            <h55 class="S4_right_text S4_box_height">
+          <div class="S4_pic_right ">
+            <h55 class="S4_right_text S4_right_box_height">
               Gain exposure to top and expensive NFT collections with just $1
             </h55>
           </div>
@@ -509,31 +571,29 @@ margin-top: 0%;
       </div>
     </section>
 
-    <section >
-    <div id="S5" class= "section ">
-        
-      <div id="S5_left" class= "lineheight_auto"  >
-        <h33>Start playing. Wen? Now!</h33>
-        <h66>
-          Join our beta test and receive free credits to play. <br />
-          We&lsquo;d love to hear what you have to say.
-        </h66>
-        <a
-          id="S5_button"
-          href="index.html"
-          class="button"
-          ><h44>Launch app</h44>
-      </a>
-      </div>
+    <section>
+      <div id="S5" class="section">
+        <div id="S5_left" class="lineheight_auto" >
+          <h33 id="S5_top_text">Start playing. Wen? Now!</h33>
+          <h66>
+            Join our beta test and receive free credits to play. <br />
+            We&lsquo;d love to hear what you have to say.
+          </h66>
+          <a id="S5_button" href="index.html" class="button">
+            <h44>Launch app</h44>
+          </a>
 
-      <div id="S5_right">
-        <img
-          id="Section5_pic"
-          src="images/png/NewMaskGroup/MaskGroupAll.png"
-          alt="BottomCryptoPic"
-        />
+
+        </div>
+
+        <div id="S5_right">
+          <img
+            id="Section5_pic"
+            src="images/png/NewMaskGroup/MaskGroupAll.png"
+            alt="BottomCryptoPic"
+          />
+        </div>
       </div>
-    </div>
     </section>
 
     <footer id="S6">
@@ -562,9 +622,6 @@ margin-top: 0%;
 
     <script src="./js/SectionAnimation.js"></script>
     <script src="./js/NightMode.js"></script>
-
-
-
   </body>
 </html>
 

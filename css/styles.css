@@ -365,11 +365,21 @@ header {
   color: #364fc7;
 }
 
+#S0{
+  box-sizing: border-box;
+  /* background-color: pink; */
+  position: relative; 
+  width: 90%;
+  /* max-height: 100px; */
+  height: 92px;
+}
+
 #S1 {
   position: relative;
   height: 60%;
   width: 90%;
   /* background-color: green ; */
+  /* padding-top: 3%; */
 }
 
 #S1_button {
@@ -402,7 +412,7 @@ section {
 #S1-video > video {
   width: 100%;
   height: 150%;
-  margin-top: 20%;
+  /* margin-top: 20%; */
   border-radius: 20px;
   opacity: 0.9;
   z-index: -100;
@@ -446,10 +456,16 @@ p {
   width: 90%;
   /* height: 5em; */
   
+  border-radius: 20px;
   background: #ddd;
 
   margin-top: 3em;
   margin-bottom: 3em;
+
+
+  box-sizing: border-box;
+  box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.85);
+
 }
 
 .S2_text {

@@ -464,8 +464,7 @@ p {
 
 
   box-sizing: border-box;
-  box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.85);
-
+  box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
 }
 
 .S2_text {
@@ -484,6 +483,7 @@ p {
 
 .S3_pic {
   width: 32%;
+  box-shadow: 0px 2px 12px rgba(11, 22, 44, 0.05);
 }
 
 #S4-1,
@@ -754,4 +754,5 @@ p {
 .section.show {
   transform: translateY(0);
 }
+
 
